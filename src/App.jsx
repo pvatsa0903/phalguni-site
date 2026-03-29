@@ -232,15 +232,11 @@ const stats = [
 const testimonials = [
   {
     quote: "I had the pleasure to work with Phalguni for several months and found her to be a highly capable and collaborative partner. She is curious and takes the time to fully understand problems before moving on to the next step. Phalguni made it easy for me to understand the technical side of issues we were working together to resolve. Her effective communication, along with the depth of her expertise and optimistic attitude, made me look forward to our regular meetings. I hope to have the opportunity to work alongside Phalguni again and highly recommend her for any role.",
-    name: "Bree L.",
-    title: "[ Add title from LinkedIn ]",
-    company: "[ Add company ]",
+    name: "Bree Lotter",
   },
   {
     quote: "I had the pleasure to work with Phalguni in a group project towards the end of my time at Purdue. And not only did I find a good teammate in her, but also a great friend! Phalguni is extremely reliable and always produced high quality work for our team. I never felt the need to review any work that she had done for the team because I always knew that what she completed was going to be great! In addition, Phalguni holds herself in a professional manner with great communication skills, always keeping teammates in the know on task progress. I truly believe she would be a great addition to any analytics teams!",
     name: "Stefanie Walsh",
-    title: "[ Add title from LinkedIn ]",
-    company: "[ Add company ]",
   },
   {
     quote: "It's rare that you come across standout talent like Phalguni. I had the pleasure of starting my career and working with her for five years at Merck, collaborating on several projects — she always thinks out of the box and completes responsibilities well within the time frame. She makes sure she is always there for her team when needed. What really impressed me most is just how polished she is when presenting to large groups of people. Her communication skills are really impressive.",
@@ -838,7 +834,11 @@ export default function App() {
                 <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed italic grow">{t.quote}</p>
                 <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800">
                   <div className="font-semibold text-sm">{t.name}</div>
-                  <div className="text-xs text-slate-500 dark:text-slate-400">{t.title} · {t.company}</div>
+                  {(t.title || t.company) && (
+                    <div className="text-xs text-slate-500 dark:text-slate-400">
+                      {[t.title, t.company].filter(Boolean).join(" · ")}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
