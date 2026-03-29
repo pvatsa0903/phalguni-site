@@ -53,7 +53,7 @@ const experience = [
     ],
   },
   {
-    company: "BAutodesk",
+    company: "Autodesk",
     role: "Product Owner",
     period: "2021 – 2023",
     location: "San Francisco, CA",
@@ -71,7 +71,7 @@ const experience = [
     bullets: [
       "Built and scaled consumer-facing features for a B2C SaaS platform serving 100k+ users",
       "Managed roadmap, user research, and cross-team stakeholder alignment end-to-end",
-      "Received Employee of the Quarter and Outstanding Achievement Awards",
+      "Received Outstanding Achievement Awards",
     ],
   },
     {
@@ -80,9 +80,11 @@ const experience = [
     period: "2015 – 2020",
     location: "Bengaluru, India",
     bullets: [
-      "Built and scaled consumer-facing features for a B2C SaaS platform serving 100k+ users",
-      "Managed roadmap, user research, and cross-team stakeholder alignment end-to-end",
-      "Received Employee of the Quarter and Outstanding Achievement Awards",
+      "Analyzed user purchasing behavior for the product and implemented bundle offerings at checkout increasing revenue by 15%",
+      "Led a cross-functional team reviewing code for user onboarding assuring improvement in average page response time by 15%",
+      "Introduced live tracking for product requests and orders and report generation for customers reducing lead time by 30%",
+      "Developed User Management for identity and access management with role-based access control including SuperUsers in the application to retain users transitioning between organizations and reduced churn rate by 25%",
+      "Received Employee of the Quarter Awards",
     ],
   },
 ];
@@ -90,7 +92,7 @@ const experience = [
 const projects = [
   {
     title: "StockPulse — AI-Powered Sentiment Picks",
-    timeline: "2024",
+    timeline: "2026",
     description:
       "Full-stack web app that uses AI to analyze market sentiment and surface stock recommendations. Built with TypeScript and live in production.",
     tags: ["TypeScript", "AI", "Finance", "Full-Stack"],
@@ -101,7 +103,7 @@ const projects = [
   },
   {
     title: "Sentiment Analysis for Trading",
-    timeline: "2024",
+    timeline: "2021",
     description:
       "ML pipeline analyzing financial news & social media sentiment to predict price movements. Achieved 84.37% accuracy using NLP and ensemble methods.",
     tags: ["Python", "NLP", "Machine Learning"],
@@ -111,7 +113,7 @@ const projects = [
   },
   {
     title: "Purchase Intent Classification",
-    timeline: "2023",
+    timeline: "2021",
     description:
       "Trained classifiers to predict user purchase intent from online session data — 85.45% accuracy, directly applicable to personalization strategy.",
     tags: ["Python", "ML", "E-commerce"],
@@ -121,7 +123,7 @@ const projects = [
   },
   {
     title: "City Bus Route Optimization",
-    timeline: "2022",
+    timeline: "2021",
     description:
       "Data-driven analysis identifying 40% overhead reduction potential through smart route consolidation and scheduling optimization.",
     tags: ["Python", "Data Analytics", "Optimization"],
@@ -136,7 +138,7 @@ const skillGroups = [
     label: "Product Management",
     color: "violet",
     items: [
-      "Product Strategy", "Roadmapping", "User Research",
+      "Product Strategy", "Roadmap and Prioritization", "User Research",
       "A/B Testing", "OKR Definition", "Stakeholder Management",
       "Agile / SAFe", "PRD Writing",
     ],
@@ -145,7 +147,7 @@ const skillGroups = [
     label: "Technical",
     color: "blue",
     items: [
-      "Python", "SQL", "Machine Learning", "Data Analytics",
+      "Python","JAVA" ,"SQL", "Machine Learning", "Data Analytics",
       "Amplitude", "Jupyter Notebook", "TypeScript",
     ],
   },
