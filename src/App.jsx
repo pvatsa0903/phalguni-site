@@ -22,7 +22,7 @@ import AIChatSection from "./components/AIChatSection";
 
 const profile = {
   name: "Phalguni Vatsa",
-  title: "Senior Product Manager",
+  title: "Product Manager",
   subtitle: "Growth & Monetization",
   blurb:
     "10 years building and scaling B2B & B2C SaaS products. I turn ambiguous problems into shipped features and measurable outcomes — through crisp strategy, rigorous experimentation, and cross-functional alignment.",
@@ -30,7 +30,7 @@ const profile = {
   highlights: [
     "Launched incentives engine driving double-digit lifts in member activation",
     "ML-literate PM: Python · SQL · Amplitude · A/B testing · Agile/SAFe",
-    "Purdue Krannert MBA · Certified SAFe® Agilist · AI For Everyone (Coursera)",
+    "Purdue University,  Krannert School of Business, Master Of Science · Certified SAFe® Agilist · AI For Everyone (Coursera)",
   ],
   social: {
     github: "https://github.com/pvatsa0903",
@@ -41,9 +41,9 @@ const profile = {
 
 const experience = [
   {
-    company: "CVS Health / Personify Health",
-    role: "Senior Product Manager – Growth & Monetization",
-    period: "2022 – Present",
+    company: "CVS Health",
+    role: "Product Manager",
+    period: "2024 – Present",
     location: "San Francisco, CA",
     bullets: [
       "Launched gift-card checkout & incentives engine delivering millions in GMV with strong member adoption",
@@ -53,9 +53,9 @@ const experience = [
     ],
   },
   {
-    company: "B2B SaaS — Product Manager",
-    role: "Product Manager",
-    period: "2019 – 2022",
+    company: "BAutodesk",
+    role: "Product Owner",
+    period: "2021 – 2023",
     location: "San Francisco, CA",
     bullets: [
       "Owned PLG funnel improvements across web onboarding, cutting time-to-value measurably",
@@ -64,10 +64,21 @@ const experience = [
     ],
   },
   {
-    company: "B2C SaaS — Early Career",
-    role: "Product Manager",
-    period: "2015 – 2019",
-    location: "Bengaluru, India → San Francisco, CA",
+    company: "Merck Group",
+    role: "Project Lead",
+    period: "2020 – 2020",
+    location: "Bengaluru, India",
+    bullets: [
+      "Built and scaled consumer-facing features for a B2C SaaS platform serving 100k+ users",
+      "Managed roadmap, user research, and cross-team stakeholder alignment end-to-end",
+      "Received Employee of the Quarter and Outstanding Achievement Awards",
+    ],
+  },
+    {
+    company: "Yash Technologies",
+    role: "Software Engineer",
+    period: "2015 – 2020",
+    location: "Bengaluru, India",
     bullets: [
       "Built and scaled consumer-facing features for a B2C SaaS platform serving 100k+ users",
       "Managed roadmap, user research, and cross-team stakeholder alignment end-to-end",
