@@ -95,7 +95,7 @@ const projects = [
     title: "StockPulse — AI-Powered Sentiment Picks",
     timeline: "2026",
     description:
-      "Full-stack web app that uses AI to analyze market sentiment and surface stock recommendations. Built with TypeScript and live in production.",
+      "Full-stack web app that uses AI to analyze market sentiment and surface stock recommendations. Conceived, designed, and shipped entirely through prompt engineering — no traditional coding. Proof that the best PMs don't wait for engineers.",
     tags: ["TypeScript", "AI", "Finance", "Full-Stack"],
     link: "https://weekly-stock-ace.lovable.app",
     linkLabel: "Live App",
