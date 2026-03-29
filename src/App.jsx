@@ -392,6 +392,8 @@ export default function App() {
                   </a>
                   <a
                     href={profile.social.resume}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-3 font-medium hover:text-violet-600 dark:hover:text-violet-400 transition-colors"
                   >
                     <Download size={18} /> Resume (PDF)
