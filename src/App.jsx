@@ -49,7 +49,7 @@ const experience = [
     bullets: [
       "Defined 12-month roadmap for a 30M-user health & wellness platform; secured executive buy-in on monetization and retention strategy",
       "Introduced gamified features — Badges & Streaks — improving retention by 20% across 30M users",
-      "Launched "Team Challenges" with team creation logic, ranking systems, and real-time leaderboards → 20% uptick in onboarding among premium users",
+      "Launched 'Team Challenges' with team creation logic, ranking systems, and real-time leaderboards → 20% uptick in onboarding among premium users",
       "Orchestrated a multichannel notification strategy to personalize outreach, delivering a 30% lift in interaction rates",
       "Introduced membership tiering system unlocking premium perks → 40% boost in engagement and 10% lift in feature adoption",
       "Drove A/B experiments to diagnose onboarding drop-offs, optimizing the funnel for a projected 20% lift in member activation",
