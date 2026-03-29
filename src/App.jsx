@@ -316,7 +316,7 @@ function Tag({ children, className = "" }) {
 
 function SectionHeader({ icon, title }) {
   return (
-    <div className="flex items-center gap-2 mb-5">
+    <div className="flex items-center gap-3 mb-6 pl-4 border-l-4 border-violet-500">
       <span className="text-violet-600 dark:text-violet-400">{icon}</span>
       <h2 className="text-xl font-bold tracking-tight">{title}</h2>
     </div>
@@ -326,7 +326,7 @@ function SectionHeader({ icon, title }) {
 function Card({ children, className = "" }) {
   return (
     <div
-      className={`rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 shadow-sm p-5 ${className}`}
+      className={`rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 shadow-sm p-5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md ${className}`}
     >
       {children}
     </div>
@@ -361,7 +361,7 @@ export default function App() {
       {/* ── Nav ── */}
       <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-50/80 dark:bg-slate-950/80 border-b border-slate-200 dark:border-slate-800">
         <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-          <a href="#home" className="font-bold tracking-tight text-base">
+          <a href="#home" className="font-extrabold tracking-tight text-base bg-gradient-to-r from-violet-600 to-blue-500 bg-clip-text text-transparent">
             {profile.name}
           </a>
 
@@ -420,14 +420,18 @@ export default function App() {
         <section className="py-14 md:py-20">
           <div className="grid md:grid-cols-5 gap-10 items-center">
             <div className="md:col-span-3">
-              <p className="text-sm font-semibold uppercase tracking-widest text-violet-600 dark:text-violet-400 mb-3">
-                {profile.subtitle}
-              </p>
-              <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
+              <div className="flex items-center gap-2 mb-4">
+                <span className="inline-flex items-center gap-1.5 bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-400 text-xs font-semibold px-3 py-1 rounded-full">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  Open to Conversations
+                </span>
+              </div>
+              <h1 className="text-4xl md:text-6xl font-extrabold leading-tight bg-gradient-to-br from-violet-600 via-purple-500 to-blue-500 bg-clip-text text-transparent pb-1">
                 {profile.name}
               </h1>
-              <p className="mt-1 text-2xl md:text-3xl font-bold text-slate-400 dark:text-slate-500">
-                {profile.title}
+              <p className="mt-2 text-xl md:text-2xl font-semibold text-slate-500 dark:text-slate-400 tracking-tight">
+                {profile.title} <span className="text-slate-300 dark:text-slate-600 mx-2">·</span>
+                <span className="text-sm font-medium text-slate-400 dark:text-slate-500">{profile.subtitle}</span>
               </p>
               <div className="mt-3 inline-flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-sm font-medium px-3 py-1 rounded-full">
                 <MapPin size={13} /> {profile.location}
@@ -508,8 +512,9 @@ export default function App() {
             {stats.map((s) => (
               <div
                 key={s.label}
-                className="flex flex-col items-center justify-center text-center rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 py-4 px-2 shadow-sm"
+                className="relative flex flex-col items-center justify-center text-center rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 pt-5 pb-4 px-2 shadow-sm overflow-hidden transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md"
               >
+                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-violet-500 to-blue-500" />
                 <div className="text-2xl md:text-3xl font-extrabold text-violet-600 dark:text-violet-400 leading-none">
                   {s.value}
                 </div>
@@ -828,18 +833,24 @@ export default function App() {
             {testimonials.map((t, i) => (
               <div
                 key={i}
-                className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 shadow-sm p-5 flex flex-col"
+                className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 shadow-sm p-6 flex flex-col transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md"
               >
-                <div className="text-4xl font-serif text-violet-300 dark:text-violet-700 leading-none mb-3">"</div>
-                <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed italic grow">{t.quote}</p>
-                <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800">
-                  <div className="font-semibold text-sm">{t.name}</div>
-                  {(t.title || t.company) && (
-                    <div className="text-xs text-slate-500 dark:text-slate-400">
-                      {[t.title, t.company].filter(Boolean).join(" · ")}
-                    </div>
-                  )}
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-9 h-9 rounded-full bg-gradient-to-br from-violet-500 to-blue-500 flex items-center justify-center text-white text-sm font-bold shrink-0">
+                    {t.name.charAt(0)}
+                  </div>
+                  <div>
+                    <div className="font-semibold text-sm">{t.name}</div>
+                    {(t.title || t.company) && (
+                      <div className="text-xs text-slate-500 dark:text-slate-400">
+                        {[t.title, t.company].filter(Boolean).join(" · ")}
+                      </div>
+                    )}
+                  </div>
                 </div>
+                <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed grow">
+                  &ldquo;{t.quote}&rdquo;
+                </p>
               </div>
             ))}
           </div>

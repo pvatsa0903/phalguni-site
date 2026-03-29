@@ -3,8 +3,9 @@
 /* Class-based dark mode for manual toggle */
 @variant dark (&:where(.dark, .dark *));
 
-/* Smooth scrolling */
-html {
+/* Base font */
+html, body {
+  font-family: 'Inter', sans-serif;
   scroll-behavior: smooth;
 }
 
