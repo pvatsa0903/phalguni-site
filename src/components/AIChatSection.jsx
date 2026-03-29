@@ -29,7 +29,7 @@ const KB = [
       "background", "overview", "summary", "intro",
     ],
     response:
-      "Phalguni Vatsa is a Product Manager with 10 years of experience building and scaling B2B & B2C SaaS products.\n\nCurrently at CVS Health in San Francisco, she specializes in growth, monetization, and activation strategies. She's worked at Autodesk, Merck Group, and Yash Technologies, growing from Software Engineer all the way to PM — which gives her a rare full-stack perspective.\n\nShe holds an MS from Purdue University's Krannert School of Business, a SAFe Agilist certification, and completed AI For Everyone (Coursera) back in 2019.",
+      "Phalguni Vatsa is a Product Manager with 10 years of experience in B2B & B2C SaaS across healthcare, tech, and data science.\n\nCurrently at CVS Health in San Francisco, she drives growth, retention, and monetization for a 30M-user health platform. She's grown from Software Engineer → Tech Lead → Project Lead → Product Owner → PM, giving her a rare end-to-end perspective that most PMs don't have.\n\nShe holds an MS in Business Analytics from Purdue Krannert, is a Certified SAFe® Agilist, and completed AI For Everyone (Coursera) back in 2019.",
   },
 
   // ── Current Role ────────────────────────────────────────────────
@@ -43,7 +43,7 @@ const KB = [
       "cvs",
     ],
     response:
-      "At CVS Health (2024–Present), Phalguni is a Product Manager:\n\n• Launched a gift-card checkout & incentives engine delivering millions in GMV\n• Shipped team challenges, streaks, and badges → double-digit lift in member interactions and retention\n• Defined activation KPIs, instrumented Amplitude dashboards, and ran A/B experiments across onboarding\n• Led cross-functional squads of engineers, designers, and data scientists in a scaled agile (SAFe) environment",
+      "At CVS Health (Feb 2024–Present), Phalguni is a Product Manager for a 30M-user health & wellness platform:\n\n• Defined 12-month roadmap; secured executive buy-in on monetization and retention strategy\n• Launched Badges & Streaks gamification → 20% retention improvement\n• Launched Team Challenges with real-time leaderboards → 20% uptick in premium user onboarding\n• Multichannel notification strategy → 30% lift in interaction rates\n• Membership tiering system → 40% engagement boost, 10% feature adoption lift\n• A/B experiments on onboarding funnel → projected 20% lift in member activation\n• Customizable financial incentives delivery → 10% increase in customer adoption",
   },
 
   // ── Experience / Career History ─────────────────────────────────
@@ -54,11 +54,11 @@ const KB = [
       "years of experience", "worked at", "companies she worked",
       "her career", "job history", "professional history", "employment history",
       "past companies", "work background", "career overview", "autodesk",
-      "merck", "yash", "yash technologies",
+      "merck", "merck kgaa", "tredence", "yash", "yash technologies",
       "career", "resume", "background",
     ],
     response:
-      "Phalguni has 10 years of experience across four companies:\n\n📍 CVS Health (2024–Present) — Product Manager\nIncentives engine, member engagement, A/B testing, SAFe\n\n📍 Autodesk (2021–2023) — Product Owner\nPLG funnel optimization, free-to-paid conversion, experimentation frameworks\n\n📍 Merck Group (2020) — Project Lead, Bengaluru\nConsumer SaaS features, roadmap ownership, cross-team alignment\n\n📍 Yash Technologies (2015–2020) — Software Engineer, Bengaluru\nBundle checkout (+15% revenue), user onboarding, live order tracking, role-based access control\n\nShe's grown from engineer → project lead → product owner → PM — a rare full-stack perspective.",
+      "Phalguni has 10 years of experience across five companies:\n\n📍 CVS Health (Feb 2024–Present) — Product Manager, San Francisco\n30M-user health platform · 20% retention lift · 30% interaction rate lift · A/B experimentation\n\n📍 Autodesk (Jan 2022–Sep 2023) — Product Owner, San Francisco\nAuto-renewals · NPS +20 pts · 10% revenue increase via personalized upsell at checkout\n\n📍 Tredence Inc. (Aug–Nov 2021) — Data Science Intern, San Francisco\nML framework for A/B testing automation · 20% turnaround time reduction\n\n📍 Merck KGaA (Jan–Dec 2020) — Project Lead, Bengaluru\nUser journey analysis · 20% customer growth · 30% session duration increase\n\n📍 Yash Technologies (Aug 2015–Jan 2020) — Tech Lead → Software Engineer, Bengaluru\n15% revenue increase · 25% churn reduction · 30% lead time reduction\n\nShe's grown from Software Engineer → Tech Lead → Project Lead → Product Owner → PM — a rare perspective that makes her a far sharper product leader.",
   },
 
   // ── Projects (overview) ─────────────────────────────────────────
@@ -209,7 +209,7 @@ const KB = [
       "recruiting", "open to work", "connect", "linkedin", "reach",
     ],
     response:
-      "Want to connect with Phalguni? Here's how:\n\n💼 LinkedIn: linkedin.com/in/phalgunivatsa\n📧 Email: phalgunivatsa@gmail.com\n\nShe's always open to conversations about product, growth, AI, or new opportunities. LinkedIn is the best place to start!",
+      "Want to connect with Phalguni? Here's how:\n\n💼 LinkedIn: linkedin.com/in/phalgunivatsa\n📧 Email: phalguni.vats@gmail.com\n\nShe's always open to conversations about product, growth, AI, or new opportunities. LinkedIn is the best place to start!",
   },
 
   // ── Why Hire ────────────────────────────────────────────────────
