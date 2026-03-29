@@ -392,7 +392,7 @@ export default function App() {
 
   useEffect(() => {
     const check = () => {
-      const el = statsRef.current;
+      const el = statsRef.current || document.querySelector('[data-stats-section]');
       if (!el) return;
       const { top, bottom } = el.getBoundingClientRect();
       if (top < window.innerHeight && bottom > 0) {
@@ -400,9 +400,15 @@ export default function App() {
         window.removeEventListener('scroll', check);
       }
     };
-    check(); // fire immediately in case already in view
-    window.addEventListener('scroll', check, { passive: true });
-    return () => window.removeEventListener('scroll', check);
+    // Small delay so ref is definitely set after first paint
+    const t = setTimeout(() => {
+      check();
+      window.addEventListener('scroll', check, { passive: true });
+    }, 100);
+    return () => {
+      clearTimeout(t);
+      window.removeEventListener('scroll', check);
+    };
   }, []);
 
   useEffect(() => {
@@ -584,7 +590,7 @@ export default function App() {
         </section>
 
         {/* ── Impact Stats ── */}
-        <section className="mb-14 -mt-4" ref={statsRef}>
+        <section className="mb-14 -mt-4" ref={statsRef} data-stats-section="true">
           <div className="grid grid-cols-3 md:grid-cols-6 gap-3">
             {stats.map((s) => (
               <div
