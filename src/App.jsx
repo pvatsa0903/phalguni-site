@@ -153,9 +153,9 @@ const skillGroups = [
     label: "Product Management",
     color: "violet",
     items: [
-      "Product Strategy", "Roadmap and Prioritization", "User Research",
-      "A/B Testing", "OKR Definition", "Stakeholder Management",
-      "Agile / SAFe", "PRD Writing",
+      "Product Strategy", "Product Roadmap and Prioritization", "User Research",
+      "A/B Testing", "OKRs/ KPIs", "Stakeholder Management",
+      "Agile / SAFe", "PRD Writing", "Go-to-Market (GTM)", "Cross-functional Leadership" 
     ],
   },
   {
