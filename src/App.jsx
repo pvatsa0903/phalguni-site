@@ -19,6 +19,10 @@ import {
   BookOpen,
   Target,
   CheckCircle2,
+  Zap,
+  Headphones,
+  Lightbulb,
+  Tv,
 } from "lucide-react";
 import AIChatSection from "./components/AIChatSection";
 
@@ -229,6 +233,16 @@ const stats = [
   { value: "5", label: "Companies" },
 ];
 
+const currently = [
+  { icon: BookOpen,   label: "Reading",        value: "Inspired — Marty Cagan" },
+  { icon: Zap,        label: "Learning",        value: "AI agents, markdown & AI orchestration" },
+  { icon: Code2,      label: "Building",        value: "OpenClaw for Phalguni" },
+  { icon: Headphones, label: "Listening to",    value: "Lenny's Podcast" },
+  { icon: Lightbulb,  label: "Thinking about",  value: "How AI prototyping will 10× a PM's productivity" },
+  { icon: Target,     label: "Open to",         value: "Full-time PM roles · Advisory" },
+  { icon: Tv,         label: "Watching",        value: "Project Hail Mary" },
+];
+
 const testimonials = [
   {
     quote: "I had the pleasure to work with Phalguni for several months and found her to be a highly capable and collaborative partner. She is curious and takes the time to fully understand problems before moving on to the next step. Phalguni made it easy for me to understand the technical side of issues we were working together to resolve. Her effective communication, along with the depth of her expertise and optimistic attitude, made me look forward to our regular meetings. I hope to have the opportunity to work alongside Phalguni again and highly recommend her for any role.",
@@ -426,6 +440,7 @@ export default function App() {
 
   const navLinks = [
     { href: "#about", label: "About" },
+    { href: "#currently", label: "Currently" },
     { href: "#experience", label: "Experience" },
     { href: "#projects", label: "Projects" },
     { href: "#case-studies", label: "Case Study" },
@@ -628,6 +643,31 @@ export default function App() {
               LLMs, vibe-coding side projects, and thinking about what the next generation of PM tools looks like.
             </p>
           </Card>
+        </section>
+
+        {/* ── Currently ── */}
+        <section id="currently" className="scroll-mt-24 mb-14">
+          <SectionHeader icon={<Zap size={20} />} title="Currently" />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {currently.map(({ icon: Icon, label, value }) => (
+              <div
+                key={label}
+                className="flex items-start gap-3 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 shadow-sm px-4 py-3.5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md"
+              >
+                <span className="mt-0.5 shrink-0 text-violet-500 dark:text-violet-400">
+                  <Icon size={16} />
+                </span>
+                <div className="min-w-0">
+                  <div className="text-[11px] font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-0.5">
+                    {label}
+                  </div>
+                  <div className="text-sm font-medium text-slate-800 dark:text-slate-100 leading-snug">
+                    {value}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </section>
 
         {/* ── Experience ── */}
