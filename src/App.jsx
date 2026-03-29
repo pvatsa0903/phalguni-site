@@ -197,13 +197,13 @@ const colorMap = {
 
 const education = [
   {
-    degree: "Master of Science",
+    degree: "Master of Science (M.S.)",
     field: "Business Analytics & Information Management",
     school: "Purdue University, Krannert School of Management",
     year: "2021",
   },
   {
-    degree: "Bachelor of Engineering",
+    degree: "Bachelor of Engineering (B.E.)",
     field: "Information Technology",
     school: "Rajiv Gandhi Technical University",
     year: "2015",
