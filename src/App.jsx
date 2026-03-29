@@ -32,6 +32,7 @@ const profile = {
     "ML-literate PM: Python · SQL · Amplitude · A/B testing · Agile/SAFe",
     "Purdue University,  Krannert School of Business, Master Of Science · Certified SAFe® Agilist · AI For Everyone (Coursera)",
   ],
+  email: "phalgunivatsa@gmail.com", // ← update with your real email
   social: {
     github: "https://github.com/pvatsa0903",
     linkedin: "https://www.linkedin.com/in/phalgunivatsa/",
@@ -587,20 +588,18 @@ export default function App() {
             </p>
             <div className="flex flex-wrap gap-3">
               <a
+                href={`mailto:${profile.email}`}
+                className="inline-flex items-center gap-2 rounded-full bg-violet-600 hover:bg-violet-700 text-white px-5 py-2.5 text-sm font-semibold transition-colors"
+              >
+                <Mail size={16} /> {profile.email}
+              </a>
+              <a
                 href={profile.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 text-sm font-semibold transition-colors"
               >
                 <Linkedin size={16} /> LinkedIn
-              </a>
-              <a
-                href={profile.social.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
-              >
-                <Github size={16} /> GitHub
               </a>
             </div>
           </Card>
