@@ -610,7 +610,7 @@ export default function App() {
       {/* ── Footer ── */}
       <footer className="border-t border-slate-200 dark:border-slate-800 py-8">
         <div className="max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-slate-500 dark:text-slate-400">
-          <span>© {year} {profile.name} · Built with React + Tailwind</span>
+          <span>© {year} {profile.name} · Vibe coded with Claude AI ✦ React + Tailwind</span>
           <div className="flex items-center gap-5">
             {navLinks.map((l) => (
               <a key={l.href} href={l.href} className="hover:text-slate-900 dark:hover:text-slate-100 transition-colors">
