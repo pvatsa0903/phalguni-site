@@ -30,7 +30,7 @@ const profile = {
   highlights: [
     "Launched incentives engine driving double-digit lifts in member activation",
     "ML-literate PM: Python · SQL · Amplitude · A/B testing · Agile/SAFe",
-    "Purdue University,  Krannert School of Business, Master Of Science · Certified SAFe® Agilist · AI For Everyone (Coursera)",
+    "MS Business Analytics, Purdue Krannert · Certified SAFe® Agilist · AI For Everyone (Coursera)",
   ],
   email: "phalgunivatsa@gmail.com", // ← update with your real email
   social: {
@@ -177,11 +177,25 @@ const colorMap = {
   },
 };
 
+const education = [
+  {
+    degree: "Master of Science",
+    field: "Business Analytics & Information Management",
+    school: "Purdue University, Krannert School of Management",
+    year: "2021",
+  },
+  {
+    degree: "Bachelor of Engineering",
+    field: "Information Technology",
+    school: "Rajiv Gandhi Technical University",
+    year: "2015",
+  },
+];
+
 const certifications = [
   { name: "Certified SAFe® 4 Agilist", issuer: "Scaled Agile" },
   { name: "AI For Everyone", issuer: "Coursera · DeepLearning.AI · 2019" },
   { name: "Vibe Coding", issuer: "Lovable" },
-  { name: "Business Analytics (Advanced)", issuer: "Purdue Krannert · 2021" },
 ];
 
 const awards = [
@@ -538,11 +552,28 @@ export default function App() {
             ))}
           </div>
 
-          {/* Certifications + Awards */}
-          <div className="grid sm:grid-cols-2 gap-5 mt-5">
+          {/* Education + Certifications + Awards */}
+          <div className="grid sm:grid-cols-3 gap-5 mt-5">
             <Card>
               <div className="flex items-center gap-2 mb-3">
                 <GraduationCap size={16} className="text-violet-500" />
+                <span className="text-sm font-semibold">Education</span>
+              </div>
+              <ul className="space-y-3">
+                {education.map((e) => (
+                  <li key={e.degree + e.school} className="text-sm">
+                    <div className="font-semibold">{e.degree}</div>
+                    <div className="font-medium text-violet-600 dark:text-violet-400">{e.field}</div>
+                    <div className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">{e.school}</div>
+                    <div className="text-xs text-slate-400 dark:text-slate-500">{e.year}</div>
+                  </li>
+                ))}
+              </ul>
+            </Card>
+
+            <Card>
+              <div className="flex items-center gap-2 mb-3">
+                <GraduationCap size={16} className="text-blue-500" />
                 <span className="text-sm font-semibold">Certifications</span>
               </div>
               <ul className="space-y-2">
