@@ -54,11 +54,11 @@ const KB = [
       "years of experience", "worked at", "companies she worked",
       "her career", "job history", "professional history", "employment history",
       "past companies", "work background", "career overview", "autodesk",
-      "merck", "merck kgaa", "tredence", "yash", "yash technologies",
+      "merck", "merck group", "tredence", "yash", "yash technologies",
       "career", "resume", "background",
     ],
     response:
-      "Phalguni has 10 years of experience across five companies:\n\n📍 CVS Health (Feb 2024–Present) — Product Manager, San Francisco\n30M-user health platform · 20% retention lift · 30% interaction rate lift · A/B experimentation\n\n📍 Autodesk (Jan 2022–Sep 2023) — Product Owner, San Francisco\nAuto-renewals · NPS +20 pts · 10% revenue increase via personalized upsell at checkout\n\n📍 Tredence Inc. (Aug–Nov 2021) — Data Science Intern, San Francisco\nML framework for A/B testing automation · 20% turnaround time reduction\n\n📍 Merck KGaA (Jan–Dec 2020) — Project Lead, Bengaluru\nUser journey analysis · 20% customer growth · 30% session duration increase\n\n📍 Yash Technologies (Aug 2015–Jan 2020) — Tech Lead → Software Engineer, Bengaluru\n15% revenue increase · 25% churn reduction · 30% lead time reduction\n\nShe's grown from Software Engineer → Tech Lead → Project Lead → Product Owner → PM — a rare perspective that makes her a far sharper product leader.",
+      "Phalguni has 10 years of experience across five companies:\n\n📍 CVS Health (Feb 2024–Present) — Product Manager, San Francisco\n30M-user health platform · 20% retention lift · 30% interaction rate lift · A/B experimentation\n\n📍 Autodesk (Jan 2022–Sep 2023) — Product Owner, San Francisco\nAuto-renewals · NPS +20 pts · 10% revenue increase via personalized upsell at checkout\n\n📍 Tredence Inc. (Aug–Nov 2021) — Data Science Intern, San Francisco\nML framework for A/B testing automation · 20% turnaround time reduction\n\n📍 Merck Group (Jan–Dec 2020) — Project Lead, Bengaluru\nUser journey analysis · 20% customer growth · 30% session duration increase\n\n📍 Yash Technologies (Aug 2015–Jan 2020) — Tech Lead → Software Engineer, Bengaluru\n15% revenue increase · 25% churn reduction · 30% lead time reduction\n\nShe's grown from Software Engineer → Tech Lead → Project Lead → Product Owner → PM — a rare perspective that makes her a far sharper product leader.",
   },
 
   // ── Projects (overview) ─────────────────────────────────────────

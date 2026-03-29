@@ -15,6 +15,10 @@ import {
   GraduationCap,
   Star,
   ChevronDown,
+  TrendingUp,
+  BookOpen,
+  Target,
+  CheckCircle2,
 } from "lucide-react";
 import AIChatSection from "./components/AIChatSection";
 
@@ -77,7 +81,7 @@ const experience = [
     ],
   },
   {
-    company: "Merck KGaA",
+    company: "Merck Group",
     role: "Project Lead",
     period: "Jan 2020 – Dec 2020",
     location: "Bengaluru, India",
@@ -216,6 +220,87 @@ const awards = [
   "Krannert GSA Case Competition Winner (2021)",
 ];
 
+const stats = [
+  { value: "10+", label: "Years of Experience" },
+  { value: "30M", label: "Users on Platform" },
+  { value: "20%", label: "Retention Lift" },
+  { value: "30%", label: "Interaction Rate Lift" },
+  { value: "+20", label: "NPS Improvement" },
+  { value: "5", label: "Companies" },
+];
+
+// ── TESTIMONIALS — replace placeholder text with your LinkedIn recommendations ──
+const testimonials = [
+  {
+    quote: "[ Paste a LinkedIn recommendation here — go to linkedin.com/in/phalgunivatsa, click Recommendations, and copy the text of a strong one. ]",
+    name: "Recommender Name",
+    title: "Their Job Title",
+    company: "Their Company",
+  },
+  {
+    quote: "[ Paste a second LinkedIn recommendation here. ]",
+    name: "Recommender Name",
+    title: "Their Job Title",
+    company: "Their Company",
+  },
+  {
+    quote: "[ Paste a third LinkedIn recommendation here. ]",
+    name: "Recommender Name",
+    title: "Their Job Title",
+    company: "Their Company",
+  },
+];
+
+const caseStudies = [
+  {
+    title: "Gamification & Retention at Scale",
+    company: "CVS Health",
+    role: "Product Manager",
+    timeline: "2024 – Present",
+    tags: ["Growth", "Gamification", "Retention", "A/B Testing", "30M Users"],
+    summary:
+      "How I drove a 20% retention lift for a 30M-user health & wellness platform by introducing a gamification system, membership tiering, and personalised outreach — backed by rigorous A/B experimentation.",
+    problem:
+      "The health & wellness platform had strong acquisition numbers but struggled with long-term retention and premium user activation. Members would sign up, explore a few features, and disengage — never reaching the habits that make a health app genuinely valuable. The challenge: how do you make healthy behaviour feel rewarding enough that 30 million people keep coming back?",
+    roleDetail:
+      "As the sole PM owning the engagement and retention surface, I defined the 12-month roadmap, secured executive buy-in, wrote all PRDs, partnered with UX and engineering on delivery, and owned the experimentation programme end-to-end.",
+    approach: [
+      {
+        step: "Discovery",
+        detail:
+          "Analysed drop-off cohorts in Amplitude, ran user interviews, and mapped the full member journey to identify where and why users disengaged.",
+      },
+      {
+        step: "Define",
+        detail:
+          "Framed the core problem as a motivation gap — users lacked visible progress and social accountability. Set retention rate as the north star metric.",
+      },
+      {
+        step: "Design",
+        detail:
+          "Explored gamification frameworks and ran concept tests. Prioritised Badges, Streaks, and Team Challenges based on signal strength and engineering feasibility.",
+      },
+      {
+        step: "Deliver",
+        detail:
+          "Shipped in phases — Badges & Streaks first, then Team Challenges with real-time leaderboards, then membership tiering and a personalised multichannel notification strategy.",
+      },
+    ],
+    decision:
+      "The hardest call was sequencing. Engineering wanted to build the full tiering system first; I pushed to ship Badges & Streaks in six weeks to get retention signal early. That bet paid off — early data justified the larger tiering investment and gave us a clear direction before committing significant engineering resources.",
+    metrics: [
+      { value: "20%", label: "Retention Lift" },
+      { value: "30%", label: "Interaction Rate Lift" },
+      { value: "40%", label: "Engagement Boost" },
+      { value: "20%", label: "Premium Onboarding Uptick" },
+      { value: "10%", label: "Feature Adoption Lift" },
+      { value: "10%", label: "Customer Adoption Increase" },
+    ],
+    outcome:
+      "The gamification system became a flagship feature of the platform. Badges & Streaks improved retention by 20% across 30M users. Team Challenges drove a 20% uptick in premium onboarding. The membership tiering system boosted engagement by 40%. The multichannel notification strategy delivered a 30% lift in interaction rates. Combined, these initiatives made measurable dents in all top-line engagement and monetisation KPIs.",
+  },
+];
+
 /* ─── Sub-components ────────────────────────────────────────────── */
 
 function Tag({ children, className = "" }) {
@@ -262,7 +347,9 @@ export default function App() {
     { href: "#about", label: "About" },
     { href: "#experience", label: "Experience" },
     { href: "#projects", label: "Projects" },
+    { href: "#case-studies", label: "Case Study" },
     { href: "#skills", label: "Skills" },
+    { href: "#testimonials", label: "Testimonials" },
     { href: "#chat", label: "AI Chat" },
     { href: "#contact", label: "Contact" },
   ];
@@ -414,6 +501,25 @@ export default function App() {
           </div>
         </section>
 
+        {/* ── Impact Stats ── */}
+        <section className="mb-14 -mt-4">
+          <div className="grid grid-cols-3 md:grid-cols-6 gap-3">
+            {stats.map((s) => (
+              <div
+                key={s.label}
+                className="flex flex-col items-center justify-center text-center rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 py-4 px-2 shadow-sm"
+              >
+                <div className="text-2xl md:text-3xl font-extrabold text-violet-600 dark:text-violet-400 leading-none">
+                  {s.value}
+                </div>
+                <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-1.5 leading-snug">
+                  {s.label}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* ── About ── */}
         <section id="about" className="scroll-mt-24 mb-14">
           <SectionHeader icon={<Briefcase size={20} />} title="About" />
@@ -540,6 +646,99 @@ export default function App() {
           </div>
         </section>
 
+        {/* ── Case Studies ── */}
+        <section id="case-studies" className="scroll-mt-24 mb-14">
+          <SectionHeader icon={<BookOpen size={20} />} title="Case Studies" />
+          <div className="flex flex-col gap-10">
+            {caseStudies.map((cs) => (
+              <div key={cs.title} className="rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden">
+
+                {/* Case study header */}
+                <div className="bg-violet-600 px-6 py-5 text-white">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+                    <div>
+                      <p className="text-violet-200 text-xs font-semibold uppercase tracking-widest mb-1">
+                        {cs.company} · {cs.role} · {cs.timeline}
+                      </p>
+                      <h3 className="text-xl md:text-2xl font-bold">{cs.title}</h3>
+                      <p className="text-violet-100 text-sm mt-2 max-w-2xl">{cs.summary}</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap gap-2 mt-4">
+                    {cs.tags.map((t) => (
+                      <span key={t} className="px-2.5 py-1 rounded-full bg-white/20 text-white text-xs font-medium">
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="p-6 flex flex-col gap-6 bg-white dark:bg-slate-900/60">
+
+                  {/* Problem + Role */}
+                  <div className="grid md:grid-cols-2 gap-5">
+                    <div className="rounded-xl border border-slate-200 dark:border-slate-700 p-4">
+                      <div className="flex items-center gap-2 mb-2 font-semibold text-sm">
+                        <Target size={15} className="text-rose-500" /> The Problem
+                      </div>
+                      <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">{cs.problem}</p>
+                    </div>
+                    <div className="rounded-xl border border-slate-200 dark:border-slate-700 p-4">
+                      <div className="flex items-center gap-2 mb-2 font-semibold text-sm">
+                        <Star size={15} className="text-violet-500" /> My Role
+                      </div>
+                      <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">{cs.roleDetail}</p>
+                    </div>
+                  </div>
+
+                  {/* Approach */}
+                  <div className="rounded-xl border border-slate-200 dark:border-slate-700 p-4">
+                    <div className="flex items-center gap-2 mb-4 font-semibold text-sm">
+                      <TrendingUp size={15} className="text-emerald-500" /> Approach
+                    </div>
+                    <div className="grid sm:grid-cols-4 gap-4">
+                      {cs.approach.map((a, i) => (
+                        <div key={a.step}>
+                          <div className="w-7 h-7 rounded-full bg-violet-600 text-white text-xs font-bold flex items-center justify-center mb-2">
+                            {i + 1}
+                          </div>
+                          <div className="font-semibold text-sm mb-1">{a.step}</div>
+                          <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">{a.detail}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Key Decision */}
+                  <div className="rounded-xl border border-violet-200 dark:border-violet-900/50 bg-violet-50/50 dark:bg-violet-950/20 p-4">
+                    <div className="flex items-center gap-2 mb-2 font-semibold text-sm text-violet-700 dark:text-violet-300">
+                      <CheckCircle2 size={15} /> Key Decision
+                    </div>
+                    <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">{cs.decision}</p>
+                  </div>
+
+                  {/* Outcomes */}
+                  <div>
+                    <div className="flex items-center gap-2 mb-4 font-semibold text-sm">
+                      <Trophy size={15} className="text-amber-500" /> Outcomes
+                    </div>
+                    <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mb-4">
+                      {cs.metrics.map((m) => (
+                        <div key={m.label} className="text-center rounded-xl border border-slate-200 dark:border-slate-700 py-3 px-2">
+                          <div className="text-lg font-extrabold text-violet-600 dark:text-violet-400">{m.value}</div>
+                          <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-1 leading-snug">{m.label}</div>
+                        </div>
+                      ))}
+                    </div>
+                    <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">{cs.outcome}</p>
+                  </div>
+
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* ── Skills ── */}
         <section id="skills" className="scroll-mt-24 mb-14">
           <SectionHeader icon={<Star size={20} />} title="Skills & Expertise" />
@@ -619,6 +818,26 @@ export default function App() {
         <section id="chat" className="scroll-mt-24 mb-14">
           <SectionHeader icon={<MessageSquare size={20} />} title="Chat with My AI Assistant" />
           <AIChatSection />
+        </section>
+
+        {/* ── Testimonials ── */}
+        <section id="testimonials" className="scroll-mt-24 mb-14">
+          <SectionHeader icon={<Star size={20} />} title="Testimonials" />
+          <div className="grid md:grid-cols-3 gap-5">
+            {testimonials.map((t, i) => (
+              <div
+                key={i}
+                className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 shadow-sm p-5 flex flex-col"
+              >
+                <div className="text-4xl font-serif text-violet-300 dark:text-violet-700 leading-none mb-3">"</div>
+                <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed italic grow">{t.quote}</p>
+                <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800">
+                  <div className="font-semibold text-sm">{t.name}</div>
+                  <div className="text-xs text-slate-500 dark:text-slate-400">{t.title} · {t.company}</div>
+                </div>
+              </div>
+            ))}
+          </div>
         </section>
 
         {/* ── Contact ── */}
