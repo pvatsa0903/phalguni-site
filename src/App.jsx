@@ -240,7 +240,7 @@ const currently = [
   { icon: Headphones, label: "Listening to",    value: "Lenny's Podcast" },
   { icon: Lightbulb,  label: "Thinking about",  value: "How prototyping through AI will 10× a PM's productivity" },
   { icon: Target,     label: "Open to",         value: "Full-time PM roles" },
-  { icon: Tv,         label: "Watching",        value: "Project Hail Mary" },
+  { icon: Tv,         label: "Recently Watched",        value: "Project Hail Mary" },
 ];
 
 const testimonials = [
