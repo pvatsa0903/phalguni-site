@@ -391,14 +391,18 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const el = statsRef.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setStatsStarted(true); observer.disconnect(); } },
-      { threshold: 0, rootMargin: "0px 0px -20px 0px" }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
+    const check = () => {
+      const el = statsRef.current;
+      if (!el) return;
+      const { top, bottom } = el.getBoundingClientRect();
+      if (top < window.innerHeight && bottom > 0) {
+        setStatsStarted(true);
+        window.removeEventListener('scroll', check);
+      }
+    };
+    check(); // fire immediately in case already in view
+    window.addEventListener('scroll', check, { passive: true });
+    return () => window.removeEventListener('scroll', check);
   }, []);
 
   useEffect(() => {
