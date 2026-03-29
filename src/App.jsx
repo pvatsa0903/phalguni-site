@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   Github,
   Linkedin,
@@ -333,6 +333,36 @@ function Card({ children, className = "" }) {
   );
 }
 
+/* ─── Stat Counter ─────────────────────────────────────────────── */
+
+function StatCounter({ value, started }) {
+  const match = value.match(/^([+]?)(\d+)([+MkK%]?)$/);
+  const prefix = match ? match[1] : "";
+  const suffix = match ? match[3] : "";
+  const target = match ? parseInt(match[2]) : 0;
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    if (!started || !match) return;
+    let raf;
+    let startTime = null;
+    const duration = 1600;
+    const animate = (ts) => {
+      if (!startTime) startTime = ts;
+      const progress = Math.min((ts - startTime) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3); // easeOutCubic
+      setCount(Math.floor(eased * target));
+      if (progress < 1) raf = requestAnimationFrame(animate);
+      else setCount(target);
+    };
+    raf = requestAnimationFrame(animate);
+    return () => cancelAnimationFrame(raf);
+  }, [started]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  if (!match) return <span>{value}</span>;
+  return <span>{prefix}{count}{suffix}</span>;
+}
+
 /* ─── Main App ──────────────────────────────────────────────────── */
 
 export default function App() {
@@ -340,9 +370,41 @@ export default function App() {
   const [navOpen, setNavOpen] = useState(false);
   const year = useMemo(() => new Date().getFullYear(), []);
 
+  // Stat counter animation
+  const statsRef = useRef(null);
+  const [statsStarted, setStatsStarted] = useState(false);
+
+  // Typewriter for subtitle
+  const typewriterTarget = profile.subtitle;
+  const [typedText, setTypedText] = useState("");
+
   useEffect(() => {
     document.documentElement.classList.toggle("dark", dark);
   }, [dark]);
+
+  useEffect(() => {
+    const el = statsRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { setStatsStarted(true); observer.disconnect(); } },
+      { threshold: 0.3 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    let i = 0;
+    const delay = setTimeout(() => {
+      const interval = setInterval(() => {
+        i++;
+        setTypedText(typewriterTarget.slice(0, i));
+        if (i >= typewriterTarget.length) clearInterval(interval);
+      }, 55);
+      return () => clearInterval(interval);
+    }, 900);
+    return () => clearTimeout(delay);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const navLinks = [
     { href: "#about", label: "About" },
@@ -430,8 +492,11 @@ export default function App() {
                 {profile.name}
               </h1>
               <p className="mt-2 text-xl md:text-2xl font-semibold text-slate-500 dark:text-slate-400 tracking-tight">
-                {profile.title} <span className="text-slate-300 dark:text-slate-600 mx-2">·</span>
-                <span className="text-sm font-medium text-slate-400 dark:text-slate-500">{profile.subtitle}</span>
+                {profile.title}
+              </p>
+              <p className="mt-1 h-6 text-sm font-medium text-violet-500 dark:text-violet-400 tracking-widest uppercase">
+                {typedText}
+                <span className={`inline-block w-0.5 h-4 bg-violet-500 ml-0.5 align-middle ${typedText.length < typewriterTarget.length ? "animate-pulse" : "opacity-0"}`} />
               </p>
               <div className="mt-3 inline-flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-sm font-medium px-3 py-1 rounded-full">
                 <MapPin size={13} /> {profile.location}
@@ -507,7 +572,7 @@ export default function App() {
         </section>
 
         {/* ── Impact Stats ── */}
-        <section className="mb-14 -mt-4">
+        <section className="mb-14 -mt-4" ref={statsRef}>
           <div className="grid grid-cols-3 md:grid-cols-6 gap-3">
             {stats.map((s) => (
               <div
@@ -515,8 +580,8 @@ export default function App() {
                 className="relative flex flex-col items-center justify-center text-center rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 pt-5 pb-4 px-2 shadow-sm overflow-hidden transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md"
               >
                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-violet-500 to-blue-500" />
-                <div className="text-2xl md:text-3xl font-extrabold text-violet-600 dark:text-violet-400 leading-none">
-                  {s.value}
+                <div className="text-2xl md:text-3xl font-extrabold text-violet-600 dark:text-violet-400 leading-none tabular-nums">
+                  <StatCounter value={s.value} started={statsStarted} />
                 </div>
                 <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-1.5 leading-snug">
                   {s.label}
