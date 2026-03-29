@@ -29,21 +29,21 @@ const KB = [
       "background", "overview", "summary", "intro",
     ],
     response:
-      "Phalguni Vatsa is a Senior Product Manager with 10 years of experience building and scaling B2B & B2C SaaS products.\n\nCurrently at CVS Health / Personify Health in San Francisco, she specializes in growth, monetization, and activation strategies. Her superpower is combining sharp PM craft with genuine technical depth — she writes Python, builds ML models, and ships live products.\n\nShe studied at Purdue's Krannert School of Management, holds a SAFe Agilist certification, and completed AI For Everyone (Coursera) back in 2019.",
+      "Phalguni Vatsa is a Product Manager with 10 years of experience building and scaling B2B & B2C SaaS products.\n\nCurrently at CVS Health in San Francisco, she specializes in growth, monetization, and activation strategies. She's worked at Autodesk, Merck Group, and Yash Technologies, growing from Software Engineer all the way to PM — which gives her a rare full-stack perspective.\n\nShe holds an MS from Purdue University's Krannert School of Business, a SAFe Agilist certification, and completed AI For Everyone (Coursera) back in 2019.",
   },
 
   // ── Current Role ────────────────────────────────────────────────
   {
     keywords: [
-      "cvs health", "personify health", "current role", "current job",
+      "cvs health", "current role", "current job",
       "current company", "current position", "where does she work",
       "what does she do now", "where does phalguni work", "currently working",
       "present role", "what company does she work", "present company",
       "where do you work", "what does phalguni do", "her current role",
-      "cvs", "personify",
+      "cvs",
     ],
     response:
-      "At CVS Health / Personify Health (2022–Present), Phalguni is a Senior PM focused on Growth & Monetization:\n\n• Launched a gift-card checkout & incentives engine driving millions in GMV\n• Shipped team challenges, streaks, and badges → double-digit lift in member interactions\n• Defines activation KPIs, instruments Amplitude dashboards, and runs A/B experiments across onboarding\n• Leads cross-functional squads of engineers, designers, and data scientists in a SAFe agile environment",
+      "At CVS Health (2024–Present), Phalguni is a Product Manager:\n\n• Launched a gift-card checkout & incentives engine delivering millions in GMV\n• Shipped team challenges, streaks, and badges → double-digit lift in member interactions and retention\n• Defined activation KPIs, instrumented Amplitude dashboards, and ran A/B experiments across onboarding\n• Led cross-functional squads of engineers, designers, and data scientists in a scaled agile (SAFe) environment",
   },
 
   // ── Experience / Career History ─────────────────────────────────
@@ -53,11 +53,12 @@ const KB = [
       "past roles", "career path", "career journey", "how many years",
       "years of experience", "worked at", "companies she worked",
       "her career", "job history", "professional history", "employment history",
-      "past companies", "work background", "career overview",
+      "past companies", "work background", "career overview", "autodesk",
+      "merck", "yash", "yash technologies",
       "career", "resume", "background",
     ],
     response:
-      "Phalguni has 10 years of PM experience across three stages:\n\n📍 CVS Health / Personify Health (2022–Present)\nSenior PM, Growth & Monetization — incentives engine, member engagement, A/B testing\n\n📍 B2B SaaS (2019–2022)\nPM — PLG funnel optimization, reduced time-to-value, experimentation frameworks\n\n📍 B2C SaaS, Bengaluru → SF (2015–2019)\nPM — consumer features for 100k+ users, roadmap ownership, team awards\n\nShe's consistently driven measurable outcomes — activation lifts, retention gains, and revenue growth across wellness, enterprise, and consumer platforms.",
+      "Phalguni has 10 years of experience across four companies:\n\n📍 CVS Health (2024–Present) — Product Manager\nIncentives engine, member engagement, A/B testing, SAFe\n\n📍 Autodesk (2021–2023) — Product Owner\nPLG funnel optimization, free-to-paid conversion, experimentation frameworks\n\n📍 Merck Group (2020) — Project Lead, Bengaluru\nConsumer SaaS features, roadmap ownership, cross-team alignment\n\n📍 Yash Technologies (2015–2020) — Software Engineer, Bengaluru\nBundle checkout (+15% revenue), user onboarding, live order tracking, role-based access control\n\nShe's grown from engineer → project lead → product owner → PM — a rare full-stack perspective.",
   },
 
   // ── Projects (overview) ─────────────────────────────────────────
@@ -208,7 +209,7 @@ const KB = [
       "recruiting", "open to work", "connect", "linkedin", "reach",
     ],
     response:
-      "Want to connect with Phalguni? Here's how:\n\n💼 LinkedIn: linkedin.com/in/phalgunivatsa\n📧 Email: phalgunivatsa@email.com\n\nShe's always open to conversations about product, growth, AI, or new opportunities. LinkedIn is the best place to start!",
+      "Want to connect with Phalguni? Here's how:\n\n💼 LinkedIn: linkedin.com/in/phalgunivatsa\n📧 Email: phalgunivatsa@gmail.com\n\nShe's always open to conversations about product, growth, AI, or new opportunities. LinkedIn is the best place to start!",
   },
 
   // ── Why Hire ────────────────────────────────────────────────────
