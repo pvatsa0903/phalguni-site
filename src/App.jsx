@@ -233,20 +233,26 @@ const testimonials = [
   {
     quote: "I had the pleasure to work with Phalguni for several months and found her to be a highly capable and collaborative partner. She is curious and takes the time to fully understand problems before moving on to the next step. Phalguni made it easy for me to understand the technical side of issues we were working together to resolve. Her effective communication, along with the depth of her expertise and optimistic attitude, made me look forward to our regular meetings. I hope to have the opportunity to work alongside Phalguni again and highly recommend her for any role.",
     name: "Bree L.",
-    title: "[ Add Bree's title from LinkedIn ]",
+    title: "[ Add title from LinkedIn ]",
     company: "[ Add company ]",
   },
   {
     quote: "I had the pleasure to work with Phalguni in a group project towards the end of my time at Purdue. And not only did I find a good teammate in her, but also a great friend! Phalguni is extremely reliable and always produced high quality work for our team. I never felt the need to review any work that she had done for the team because I always knew that what she completed was going to be great! In addition, Phalguni holds herself in a professional manner with great communication skills, always keeping teammates in the know on task progress. I truly believe she would be a great addition to any analytics teams!",
     name: "Stefanie Walsh",
-    title: "[ Add Stefanie's title from LinkedIn ]",
+    title: "[ Add title from LinkedIn ]",
     company: "[ Add company ]",
   },
   {
-    quote: "[ You have 2 more LinkedIn recommendations — paste one here. Go to linkedin.com/in/phalgunivatsa → Recommendations to copy the text. ]",
-    name: "[ Name ]",
-    title: "[ Title ]",
-    company: "[ Company ]",
+    quote: "It's rare that you come across standout talent like Phalguni. I had the pleasure of starting my career and working with her for five years at Merck, collaborating on several projects — she always thinks out of the box and completes responsibilities well within the time frame. She makes sure she is always there for her team when needed. What really impressed me most is just how polished she is when presenting to large groups of people. Her communication skills are really impressive.",
+    name: "Prakhar Jain",
+    title: "Software Engineer",
+    company: "Merck Group",
+  },
+  {
+    quote: "Phalguni has been a great asset to the team. Collaborative and communicative, she connects teams with information they need to be more efficient. With an analytical eye, she is able to diagnose the root cause of inefficiencies. With her problem solving skills and initiative, she removes friction by moderating and coordinating efforts in an orderly and professional way. Her efforts ultimately benefit the team, the product, and the customer.",
+    name: "Sophie Daudenarde",
+    title: "Product Management Executive · AI Solutions Practitioner",
+    company: "Life Science Innovator",
   },
 ];
 
@@ -822,7 +828,7 @@ export default function App() {
         {/* ── Testimonials ── */}
         <section id="testimonials" className="scroll-mt-24 mb-14">
           <SectionHeader icon={<Star size={20} />} title="Testimonials" />
-          <div className="grid md:grid-cols-3 gap-5">
+          <div className="grid sm:grid-cols-2 gap-5">
             {testimonials.map((t, i) => (
               <div
                 key={i}
