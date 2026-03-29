@@ -258,16 +258,50 @@ const KB = [
       "help", "what can you do", "options", "capabilities",
     ],
     response:
-      "I can answer questions about Phalguni on topics like:\n\n• Her PM experience and career history\n• Current role at CVS Health / Personify Health\n• Technical projects (StockPulse, ML models)\n• Skills (PM craft + Python / SQL / ML)\n• Education (Purdue Krannert)\n• Certifications (SAFe, AI For Everyone, Lovable)\n• Awards & achievements\n• AI/ML background\n• Growth & monetization expertise\n• How to contact her\n• Why she might be a great hire\n\nJust ask naturally — I understand conversational questions!",
+      "I can answer questions about Phalguni on topics like:\n\n• Her PM experience and career history\n• Current role at CVS Health\n• Technical projects (StockPulse, ML models)\n• Skills (PM craft + Python / SQL / ML)\n• Education (Purdue Krannert)\n• Certifications (SAFe, AI For Everyone, Lovable)\n• Awards & achievements\n• AI/ML background\n• Growth & monetization expertise\n• How to contact her\n• Why she might be a great hire\n\nOr ask me something fun 😄",
+  },
+
+  // ── Fun / Personality ───────────────────────────────────────────
+  {
+    keywords: [
+      "are you a real engineer", "is she a real engineer", "just a pm",
+      "real engineer or pm", "engineer or product manager",
+    ],
+    response:
+      "Depends on who's asking 😄\n\nPhalguni started as a Software Engineer, got promoted to Tech Lead, and eventually crossed over to PM — so yes, she's written the code AND filed the tickets. She's the PM engineers don't roll their eyes at.",
+  },
+  {
+    keywords: [
+      "can she actually code", "does she actually code", "just talk about coding",
+      "can phalguni code", "does phalguni code", "really code",
+    ],
+    response:
+      "She can, and she does 😏\n\nPython, SQL, JAVA, JavaScript — she's shipped real ML models with 84–85% accuracy and built a live AI-powered app without writing a single line of traditional code (just vibes and prompts). She speaks engineer fluently.",
+  },
+  {
+    keywords: [
+      "superpower", "super power", "what's her superpower", "special power",
+      "what is her superpower",
+    ],
+    response:
+      "Turning chaos into a roadmap and a roadmap into shipped features with actual metrics 🚀\n\nAlso: she can go from user interview → PRD → A/B experiment → exec presentation without losing the thread. Some call it product sense. She calls it Tuesday.",
+  },
+  {
+    keywords: [
+      "if she were a product", "if phalguni were a product", "her tagline",
+      "product tagline", "phalguni as a product",
+    ],
+    response:
+      "'Ships fast, measures everything, breaks nothing in production.' 📦\n\n10 years of experience, zero tolerance for features that don't move a metric, and a genuine love for the users she's building for.",
   },
 ];
 
 const SUGGESTED_QUESTIONS = [
   "What's her PM background?",
   "Tell me about StockPulse",
-  "What technical skills does she have?",
   "What are her career highlights?",
   "Why should I hire her?",
+  "What's Phalguni's superpower?",
   "How can I contact Phalguni?",
 ];
 
