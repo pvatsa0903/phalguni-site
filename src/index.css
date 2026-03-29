@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Class-based dark mode for manual toggle */
+@variant dark (&:where(.dark, .dark *));
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Chat message text — preserve newlines */
+.chat-text {
+  white-space: pre-wrap;
+}
+
+/* Typing animation dots */
+@keyframes blink {
+  0%, 100% { opacity: 0.2; }
+  50%       { opacity: 1; }
+}
+.dot-1 { animation: blink 1.2s infinite 0s; }
+.dot-2 { animation: blink 1.2s infinite 0.2s; }
+.dot-3 { animation: blink 1.2s infinite 0.4s; }
