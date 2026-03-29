@@ -229,25 +229,24 @@ const stats = [
   { value: "5", label: "Companies" },
 ];
 
-// ── TESTIMONIALS — replace placeholder text with your LinkedIn recommendations ──
 const testimonials = [
   {
-    quote: "[ Paste a LinkedIn recommendation here — go to linkedin.com/in/phalgunivatsa, click Recommendations, and copy the text of a strong one. ]",
-    name: "Recommender Name",
-    title: "Their Job Title",
-    company: "Their Company",
+    quote: "I had the pleasure to work with Phalguni for several months and found her to be a highly capable and collaborative partner. She is curious and takes the time to fully understand problems before moving on to the next step. Phalguni made it easy for me to understand the technical side of issues we were working together to resolve. Her effective communication, along with the depth of her expertise and optimistic attitude, made me look forward to our regular meetings. I hope to have the opportunity to work alongside Phalguni again and highly recommend her for any role.",
+    name: "Bree L.",
+    title: "[ Add Bree's title from LinkedIn ]",
+    company: "[ Add company ]",
   },
   {
-    quote: "[ Paste a second LinkedIn recommendation here. ]",
-    name: "Recommender Name",
-    title: "Their Job Title",
-    company: "Their Company",
+    quote: "I had the pleasure to work with Phalguni in a group project towards the end of my time at Purdue. And not only did I find a good teammate in her, but also a great friend! Phalguni is extremely reliable and always produced high quality work for our team. I never felt the need to review any work that she had done for the team because I always knew that what she completed was going to be great! In addition, Phalguni holds herself in a professional manner with great communication skills, always keeping teammates in the know on task progress. I truly believe she would be a great addition to any analytics teams!",
+    name: "Stefanie Walsh",
+    title: "[ Add Stefanie's title from LinkedIn ]",
+    company: "[ Add company ]",
   },
   {
-    quote: "[ Paste a third LinkedIn recommendation here. ]",
-    name: "Recommender Name",
-    title: "Their Job Title",
-    company: "Their Company",
+    quote: "[ You have 2 more LinkedIn recommendations — paste one here. Go to linkedin.com/in/phalgunivatsa → Recommendations to copy the text. ]",
+    name: "[ Name ]",
+    title: "[ Title ]",
+    company: "[ Company ]",
   },
 ];
 
