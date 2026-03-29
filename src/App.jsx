@@ -317,6 +317,9 @@ export default function App() {
               <p className="mt-1 text-2xl md:text-3xl font-bold text-slate-400 dark:text-slate-500">
                 {profile.title}
               </p>
+              <div className="mt-3 inline-flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-sm font-medium px-3 py-1 rounded-full">
+                <MapPin size={13} /> {profile.location}
+              </div>
               <p className="mt-5 text-base md:text-lg text-slate-600 dark:text-slate-300 leading-relaxed max-w-xl">
                 {profile.blurb}
               </p>
@@ -342,9 +345,6 @@ export default function App() {
                   <MessageSquare size={15} /> Chat with AI
                 </a>
               </div>
-              <p className="mt-5 flex items-center gap-1.5 text-sm text-slate-500 dark:text-slate-400">
-                <MapPin size={14} /> {profile.location}
-              </p>
             </div>
 
             {/* Quick links card */}
