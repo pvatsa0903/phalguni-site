@@ -444,9 +444,9 @@ export default function App() {
     { href: "#experience", label: "Experience" },
     { href: "#projects", label: "Projects" },
     { href: "#case-studies", label: "Case Study" },
-    { href: "#skills", label: "Skills" },
-    { href: "#testimonials", label: "Testimonials" },
+    { href: "#skills", label: "Skills" }, 
     { href: "#chat", label: "AI Chat" },
+    { href: "#testimonials", label: "Testimonials" },
     { href: "#contact", label: "Contact" },
   ];
 
