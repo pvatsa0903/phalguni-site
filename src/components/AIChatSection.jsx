@@ -29,7 +29,20 @@ const KB = [
       "background", "overview", "summary", "intro",
     ],
     response:
-      "Phalguni Vatsa is a Product Manager with 10 years of experience in B2B & B2C SaaS across healthcare, tech, and data science.\n\nCurrently at CVS Health in San Francisco, she drives growth, retention, and monetization for a 30M-user health platform. She's grown from Software Engineer → Tech Lead → Project Lead → Product Owner → PM, giving her a rare end-to-end perspective that most PMs don't have.\n\nShe holds an MS in Business Analytics from Purdue Krannert, is a Certified SAFe® Agilist, and completed AI For Everyone (Coursera) back in 2019.",
+      "Phalguni Vatsa is a product manager focused on bringing clarity to complex problems and turning user behavior into scalable growth systems.\n\nShe has 10 years of experience across healthcare, tech, and data science — currently at CVS Health in San Francisco, driving growth, retention, and monetization for a 30M-member health platform.\n\nWhat sets her apart: most teams don't struggle with ideas — they struggle with structure. She specializes in taking ambiguous spaces (activation, subscriptions, international growth) and breaking them into clear problem definitions, sharp hypotheses, and focused execution paths.\n\nShe's grown from Software Engineer → Tech Lead → Project Lead → Product Owner → PM, giving her a rare end-to-end perspective most PMs don't have. She holds an MS in Business Analytics from Purdue Krannert and is a Certified SAFe® Agilist.",
+  },
+
+  // ── Approach / Methodology ──────────────────────────────────────
+  {
+    keywords: [
+      "her approach", "her methodology", "how does she work", "how does phalguni work",
+      "how does she think", "her framework", "how she solves problems",
+      "problem solving approach", "her process", "product philosophy",
+      "how does she pm", "her pm style", "her working style",
+      "approach", "methodology", "philosophy", "process", "framework",
+    ],
+    response:
+      "Phalguni's approach to product is built around three principles:\n\n1️⃣ Start with how users actually behave — not how we assume they do\n2️⃣ Identify the highest-leverage moments in the journey\n3️⃣ Design systems and experiments that compound over time\n\nShe specializes in taking ambiguous spaces (activation, subscriptions, international growth) and breaking them into clear problem definitions, sharp hypotheses, and focused execution paths.\n\nShe also uses AI as a thinking partner across the full product lifecycle — from early-stage exploration through validation and stakeholder communication — to increase both speed and quality of decision-making.\n\nThe goal: build products that are not just optimized, but intentional — where growth, user experience, and business impact align.",
   },
 
   // ── Current Role ────────────────────────────────────────────────
@@ -222,7 +235,7 @@ const KB = [
       "why hire", "strengths", "value add", "unique", "stand out",
     ],
     response:
-      "What makes Phalguni stand out as a PM:\n\n🎯 Data-first — She instruments everything and lets data drive decisions. Ran funnel analysis, A/B tests, and behavioral analytics at 30M+ user scale.\n\n💻 Technical depth — Codes in Python, trains ML models, ships live AI products. Engineers respect her.\n\n🚀 Proven outcomes — Scaled a $17M+ monetization platform to 30% YoY revenue growth. 50% retention lift. +20 NPS. AI dashboard that cut time-to-value by 35%.\n\n🤝 Cross-functional leadership — 10 years aligning engineers, designers, GTM, and business stakeholders at CVS Health, Autodesk, and more.\n\n🧠 AI-native — Launched an AI-powered personalization dashboard in production. Not just a buzzword user.\n\nShe's the rare PM who can write the PRD, interpret the model output, and present the business case to the exec team — all in the same week.",
+      "What makes Phalguni stand out as a PM:\n\n🧩 Clarity in complexity — She specializes in taking ambiguous spaces (activation, subscriptions, international growth) and breaking them into clear problem definitions, sharp hypotheses, and focused execution paths. Most teams don't struggle with ideas — they struggle with structure.\n\n🎯 Data-first — Starts with how users actually behave, not how teams assume they do. Ran funnel analysis, A/B tests, and behavioral analytics at 30M+ user scale.\n\n💻 Technical depth — Codes in Python, trains ML models, ships live AI products. Engineers respect her.\n\n🚀 Proven outcomes — $17M+ monetization platform → 30% YoY revenue growth. 50% retention lift. +20 NPS. AI dashboard that cut time-to-value by 35%.\n\n🤝 Cross-functional leadership — 10 years aligning engineers, designers, GTM, and business stakeholders at CVS Health, Autodesk, and more.\n\n🧠 AI-native — Uses AI as a thinking partner across the full product lifecycle. Launched an AI-powered personalization dashboard in production.\n\nIf you're working on hard, ambiguous problems that need clarity and structure — she's your PM.",
   },
 
   // ── Agile / SAFe ────────────────────────────────────────────────

@@ -637,19 +637,28 @@ export default function App() {
           <SectionHeader icon={<Briefcase size={20} />} title="About" />
           <Card>
             <p className="text-base leading-relaxed text-slate-700 dark:text-slate-200">
-              I&apos;m a Product Manager who bridges the gap between business strategy and technical execution.
-              My sweet spot is <strong>growth and monetization</strong> — designing the right incentives,
-              experiments, and product loops that move activation, retention, and revenue metrics.
+              I&apos;m a product manager focused on bringing clarity to complex problems and turning <strong>user behavior</strong> into <strong>scalable growth systems</strong>.
+              My sweet spot is <strong>activation, subscriptions, and monetization</strong> — designing the right incentives,
+              habit loops, and product experiments that compound over time.
             </p>
             <p className="mt-3 text-base leading-relaxed text-slate-700 dark:text-slate-200">
-              What makes me different: I don&apos;t just PM — I <strong>build</strong>. I write Python,
-              train ML models, and have shipped live web apps. That technical depth lets me work faster
-              with engineers, define sharper requirements, and build products infused with AI from the ground up.
+              Most teams don&apos;t struggle with ideas — they struggle with structure. I specialize in taking ambiguous spaces and breaking them down into
+              clear problem definitions, sharp hypotheses, and focused execution paths. My approach: start with how users <em>actually</em> behave,
+              identify the highest-leverage moments in their journey, then design habit loops and systems that scale.
             </p>
             <p className="mt-3 text-base leading-relaxed text-slate-700 dark:text-slate-200">
-              Outside of work I&apos;m exploring how AI can transform product workflows — experimenting with
-              LLMs, vibe-coding side projects, and thinking about what the next generation of PM tools looks like.
+              What makes me different: I don&apos;t just PM — I <strong>build</strong>. I use AI as a thinking partner across the full product lifecycle —
+              from early-stage exploration to validation and stakeholder communication — to increase both speed and quality of decision-making.
+              I write Python, train ML models, and ship live web apps. That technical depth means faster collaboration with engineers and sharper requirements.
             </p>
+            <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800">
+              <p className="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2">Areas I&apos;m drawn to</p>
+              <ul className="space-y-1 text-sm text-slate-700 dark:text-slate-300">
+                <li className="flex items-start gap-2"><span className="mt-1 w-1.5 h-1.5 rounded-full bg-violet-500 shrink-0" />Activation and onboarding systems</li>
+                <li className="flex items-start gap-2"><span className="mt-1 w-1.5 h-1.5 rounded-full bg-violet-500 shrink-0" />Subscription and monetization strategy</li>
+                <li className="flex items-start gap-2"><span className="mt-1 w-1.5 h-1.5 rounded-full bg-violet-500 shrink-0" />Expanding access to products at scale</li>
+              </ul>
+            </div>
           </Card>
         </section>
 
