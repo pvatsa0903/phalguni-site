@@ -591,6 +591,14 @@ export default function App() {
                     <MessageSquare size={18} /> AI Portfolio Chat
                   </a>
                   <a
+                    href="https://weekly-stock-ace.lovable.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 font-medium hover:text-violet-600 dark:hover:text-violet-400 transition-colors"
+                  >
+                    <ExternalLink size={18} /> StockPulse App
+                  </a>
+                  <a
                     href={profile.social.resume}
                     target="_blank"
                     rel="noopener noreferrer"
