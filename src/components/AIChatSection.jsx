@@ -378,11 +378,13 @@ export default function AIChatSection() {
   const [messages, setMessages] = useState([INITIAL_MESSAGE]);
   const [input, setInput] = useState("");
   const [isTyping, setIsTyping] = useState(false);
-  const bottomRef = useRef(null);
+  const messagesContainerRef = useRef(null);
   const inputRef = useRef(null);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+    const el = messagesContainerRef.current;
+    if (!el) return;
+    el.scrollTop = el.scrollHeight;
   }, [messages, isTyping]);
 
   const sendMessage = (text) => {
@@ -428,7 +430,7 @@ export default function AIChatSection() {
       </div>
 
       {/* Message area */}
-      <div className="h-80 overflow-y-auto px-4 py-4 space-y-3 bg-slate-50 dark:bg-slate-900/40">
+      <div ref={messagesContainerRef} className="h-80 overflow-y-auto px-4 py-4 space-y-3 bg-slate-50 dark:bg-slate-900/40">
         {messages.map((msg) => (
           <div
             key={msg.id}
@@ -469,7 +471,6 @@ export default function AIChatSection() {
             </div>
           </div>
         )}
-        <div ref={bottomRef} />
       </div>
 
       {/* Suggested questions */}
