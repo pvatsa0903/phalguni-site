@@ -37,7 +37,7 @@ const profile = {
   location: "San Francisco, CA",
   highlights: [
     "Scaled a $17M+ monetization platform at CVS Health — 30% YoY revenue growth, 50% retention lift, 30M+ users",
-    "Launched AI-powered personalization dashboard accelerating time-to-value by 35% and boosting return visits by 18%",
+    "Launched AI-powered personalization dashboard accelerating time-to-value by 35% and improving DAU by 18%",
     "Drove 10% revenue growth at Autodesk ($5B+ ARR) via personalized checkout and VoC-led NPS improvement of +20 pts",
   ],
   email: "phalguni.vats@gmail.com",
@@ -57,10 +57,10 @@ const experience = [
     bullets: [
       "Scaled a $17M+ monetization platform (gift card checkout + incentives), delivering ~30% YoY revenue growth, increasing user acquisition by 10% and user engagement by 30%",
       "Led 0→1 re-architecture and experimentation strategy for onboarding across a 30M+ member platform — using funnel analysis, A/B testing, and behavioral analytics to improve first-session activation by 20%",
-      "Led product strategy and launch of an AI-powered personalization dashboard surfacing actionable health insights via wearable data and recommendation models — accelerating time-to-value by 35% and increasing return visits by 18%",
-      "Designed and owned product strategy for gamified retention loops (Badges, Streaks, Team Challenges), translating behavioral insights into scalable engagement systems — increasing retention by 50%",
+      "Led product strategy and launch of an AI-powered personalization dashboard surfacing actionable health insights via wearable data and recommendation models — accelerating time-to-value by 35% and improving DAU by 18%",
+      "Designed and owned product strategy for gamified habit loops and retention loops (Badges, Streaks, Team Challenges), translating behavioral analytics into scalable engagement systems that drive stickiness — increasing retention by 50%",
       "Introduced a membership tiering system unlocking premium perks → 40% boost in engagement and 10% lift in feature adoption",
-      "Orchestrated a multichannel notification strategy to personalize outreach, delivering a 30% lift in interaction rates",
+      "Orchestrated a multichannel notification strategy to personalize outreach based on user behavior signals, delivering a 30% lift in interaction rates",
       "Defined a 12-month product strategy and roadmap for a 30M-user health platform, evaluating build vs partner tradeoffs and securing executive buy-in on long-term monetization and retention strategy",
     ],
   },
@@ -85,7 +85,7 @@ const experience = [
     ],
   },
   {
-    company: "Merck Group",
+    company: "Merck KGaA",
     role: "Project Lead",
     period: "Jan 2020 – Dec 2020",
     location: "Bengaluru, India",
@@ -256,7 +256,7 @@ const testimonials = [
     quote: "It's rare that you come across standout talent like Phalguni. I had the pleasure of starting my career and working with her for five years at Merck, collaborating on several projects — she always thinks out of the box and completes responsibilities well within the time frame. She makes sure she is always there for her team when needed. What really impressed me most is just how polished she is when presenting to large groups of people. Her communication skills are really impressive.",
     name: "Prakhar Jain",
     title: "Software Engineer",
-    company: "Merck Group",
+    company: "Merck KGaA",
   },
   {
     quote: "Phalguni has been a great asset to the team. Collaborative and communicative, she connects teams with information they need to be more efficient. With an analytical eye, she is able to diagnose the root cause of inefficiencies. With her problem solving skills and initiative, she removes friction by moderating and coordinating efforts in an orderly and professional way. Her efforts ultimately benefit the team, the product, and the customer.",
@@ -302,7 +302,7 @@ const caseStudies = [
       },
     ],
     decision:
-      "The hardest call was sequencing. Engineering wanted to build the full tiering system first; I pushed to ship Badges & Streaks in six weeks to get retention signal early. Simultaneously, I prioritised the AI personalization dashboard over lower-confidence features — wearable-driven recommendations proved they could accelerate time-to-value by 35% and increase return visits by 18%, justifying the investment.",
+      "The hardest call was sequencing. Engineering wanted to build the full tiering system first; I pushed to ship Badges & Streaks in six weeks to get retention signal early. Simultaneously, I prioritised the AI personalization dashboard over lower-confidence features — wearable-driven recommendations proved they could accelerate time-to-value by 35% and improve DAU by 18%, justifying the investment.",
     metrics: [
       { value: "50%", label: "Retention Lift" },
       { value: "30%", label: "YoY Revenue Growth" },
@@ -312,7 +312,7 @@ const caseStudies = [
       { value: "18%", label: "Return Visit Increase" },
     ],
     outcome:
-      "The gamification and personalization systems became flagship features. Gamified retention loops drove a 50% retention lift. The AI-powered personalization dashboard accelerated time-to-value by 35% and increased return visits by 18%. The $17M+ monetization platform delivered ~30% YoY revenue growth with 10% higher user acquisition. Membership tiering boosted engagement by 40%. Combined, these initiatives moved every top-line engagement and monetization KPI.",
+      "The gamification and personalization systems became flagship features. Gamified retention loops drove a 50% retention lift. The AI-powered personalization dashboard accelerated time-to-value by 35% and improved DAU by 18%. The $17M+ monetization platform delivered ~30% YoY revenue growth with 10% higher user acquisition. Membership tiering boosted engagement by 40%. Combined, these initiatives moved every top-line engagement and monetization KPI.",
   },
 ];
 

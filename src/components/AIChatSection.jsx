@@ -56,7 +56,7 @@ const KB = [
       "cvs",
     ],
     response:
-      "At CVS Health (Feb 2024–Present), Phalguni is a Product Manager owning growth, retention, and monetization for a 30M+ member health platform:\n\n• Scaled a $17M+ monetization platform (gift card checkout + incentives) → ~30% YoY revenue growth, 10% user acquisition lift, 30% engagement lift\n• Led 0→1 re-architecture of onboarding across 30M+ members using funnel analysis, A/B testing & behavioral analytics → 20% first-session activation improvement\n• Launched an AI-powered personalization dashboard using wearable data & recommendation models → 35% faster time-to-value, 18% more return visits\n• Designed gamified retention loops (Badges, Streaks, Team Challenges) → 50% retention lift\n• Membership tiering system → 40% engagement boost, 10% feature adoption lift\n• Multichannel notification strategy → 30% lift in interaction rates\n• Defined 12-month product strategy & roadmap; secured executive buy-in on long-term monetization",
+      "At CVS Health (Feb 2024–Present), Phalguni is a Product Manager owning growth, retention, and monetization for a 30M+ member health platform:\n\n• Scaled a $17M+ monetization platform (gift card checkout + incentives) → ~30% YoY revenue growth, 10% user acquisition lift, 30% engagement lift\n• Led 0→1 re-architecture of onboarding across 30M+ members using funnel analysis, A/B testing & behavioral analytics → 20% first-session activation improvement\n• Launched an AI-powered personalization dashboard using wearable data & recommendation models → 35% faster time-to-value, 18% DAU improvement\n• Designed gamified retention loops (Badges, Streaks, Team Challenges) → 50% retention lift\n• Membership tiering system → 40% engagement boost, 10% feature adoption lift\n• Multichannel notification strategy → 30% lift in interaction rates\n• Defined 12-month product strategy & roadmap; secured executive buy-in on long-term monetization",
   },
 
   // ── Experience / Career History ─────────────────────────────────
@@ -184,7 +184,7 @@ const KB = [
       "ai", "nlp", "llm", "ml", "data science",
     ],
     response:
-      "Phalguni's AI/ML background goes well beyond the buzzword level:\n\n• Completed AI For Everyone (Coursera, 2019) — early adopter before it was trendy\n• Led product strategy & launch of an AI-powered personalization dashboard at CVS Health using wearable data & recommendation models → 35% faster time-to-value, 18% return visit lift\n• Built real ML models: sentiment analysis (84.37% acc), purchase intent (85.45% acc)\n• Shipped a live AI-powered product: StockPulse (weekly-stock-ace.lovable.app)\n• Applies ML thinking to PM work: experimentation design, instrumentation, model output interpretation\n• Currently exploring AI agents, markdown workflows, and AI orchestration\n\nFor a PM, this technical AI fluency is genuinely rare and valuable.",
+      "Phalguni's AI/ML background goes well beyond the buzzword level:\n\n• Completed AI For Everyone (Coursera, 2019) — early adopter before it was trendy\n• Led product strategy & launch of an AI-powered personalization dashboard at CVS Health using wearable data & recommendation models → 35% faster time-to-value, 18% DAU lift\n• Built real ML models: sentiment analysis (84.37% acc), purchase intent (85.45% acc)\n• Shipped a live AI-powered product: StockPulse (weekly-stock-ace.lovable.app)\n• Applies ML thinking to PM work: experimentation design, instrumentation, model output interpretation\n• Currently exploring AI agents, markdown workflows, and AI orchestration\n\nFor a PM, this technical AI fluency is genuinely rare and valuable.",
   },
 
   // ── Python / Coding ─────────────────────────────────────────────
@@ -209,7 +209,7 @@ const KB = [
       "retention", "funnel", "conversion", "revenue",
     ],
     response:
-      "Growth & Monetization is Phalguni's core domain:\n\n• Scaled a $17M+ monetization platform at CVS Health → ~30% YoY revenue growth\n• Launched AI-powered personalization dashboard → 35% faster time-to-value, 18% more return visits\n• Designed gamified retention loops → 50% retention lift across 30M+ members\n• Drove 10% revenue growth at Autodesk ($5B+ ARR) through personalized checkout\n• Ran rigorous A/B experiments across onboarding funnels; improved first-session activation by 20%\n• Applied cohort analysis to understand retention and churn patterns\n\nShe approaches growth with the precision of a scientist — define the metric, run the experiment, ship what works.",
+      "Growth & Monetization is Phalguni's core domain:\n\n• Scaled a $17M+ monetization platform at CVS Health → ~30% YoY revenue growth\n• Launched AI-powered personalization dashboard → 35% faster time-to-value, 18% DAU improvement\n• Designed gamified retention loops → 50% retention lift across 30M+ members\n• Drove 10% revenue growth at Autodesk ($5B+ ARR) through personalized checkout\n• Ran rigorous A/B experiments across onboarding funnels; improved first-session activation by 20%\n• Applied cohort analysis to understand retention and churn patterns\n\nShe approaches growth with the precision of a scientist — define the metric, run the experiment, ship what works.",
   },
 
   // ── Contact / Reach ─────────────────────────────────────────────
