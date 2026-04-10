@@ -36,9 +36,9 @@ const profile = {
     "Product leader with 10 years in B2B & B2C SaaS across healthcare, tech, and data science. Proven track record in 0→1 launches, growth, retention, and monetization — with expertise in AI-driven experimentation, CRM, and global payments.",
   location: "San Francisco, CA",
   highlights: [
-    "Grew retention 20% for a 30M-user health app via gamification, tiering & A/B experimentation at CVS Health",
-    "Drove 10% revenue growth at Autodesk through personalized upsell and Voice of Customer insights",
-    "Full-stack PM: roadmaps → execution → metrics · Python · SQL · Amplitude · JIRA · SAFe",
+    "Scaled a $17M+ monetization platform at CVS Health — 30% YoY revenue growth, 50% retention lift, 30M+ users",
+    "Launched AI-powered personalization dashboard accelerating time-to-value by 35% and boosting return visits by 18%",
+    "Drove 10% revenue growth at Autodesk ($5B+ ARR) via personalized checkout and VoC-led NPS improvement of +20 pts",
   ],
   email: "phalguni.vats@gmail.com",
   social: {
@@ -55,13 +55,13 @@ const experience = [
     period: "Feb 2024 – Present",
     location: "San Francisco, CA",
     bullets: [
-      "Defined 12-month roadmap for a 30M-user health & wellness platform; secured executive buy-in on monetization and retention strategy",
-      "Introduced gamified features — Badges & Streaks — improving retention by 20% across 30M users",
-      "Launched 'Team Challenges' with team creation logic, ranking systems, and real-time leaderboards → 20% uptick in onboarding among premium users",
+      "Scaled a $17M+ monetization platform (gift card checkout + incentives), delivering ~30% YoY revenue growth, increasing user acquisition by 10% and user engagement by 30%",
+      "Led 0→1 re-architecture and experimentation strategy for onboarding across a 30M+ member platform — using funnel analysis, A/B testing, and behavioral analytics to improve first-session activation by 20%",
+      "Led product strategy and launch of an AI-powered personalization dashboard surfacing actionable health insights via wearable data and recommendation models — accelerating time-to-value by 35% and increasing return visits by 18%",
+      "Designed and owned product strategy for gamified retention loops (Badges, Streaks, Team Challenges), translating behavioral insights into scalable engagement systems — increasing retention by 50%",
+      "Introduced a membership tiering system unlocking premium perks → 40% boost in engagement and 10% lift in feature adoption",
       "Orchestrated a multichannel notification strategy to personalize outreach, delivering a 30% lift in interaction rates",
-      "Introduced membership tiering system unlocking premium perks → 40% boost in engagement and 10% lift in feature adoption",
-      "Drove A/B experiments to diagnose onboarding drop-offs, optimizing the funnel for a projected 20% lift in member activation",
-      "Led end-to-end delivery of customizable financial incentives with UX, engineering & account managers → 10% increase in customer adoption",
+      "Defined a 12-month product strategy and roadmap for a 30M-user health platform, evaluating build vs partner tradeoffs and securing executive buy-in on long-term monetization and retention strategy",
     ],
   },
   {
@@ -70,9 +70,9 @@ const experience = [
     period: "Jan 2022 – Sep 2023",
     location: "San Francisco, CA",
     bullets: [
-      "Partnered with engineering and UX to automate renewals and deliver white-glove services to premium members, improving retention by 7%",
-      "Led the Voice of Customer initiative — transforming user feedback into actionable insights that raised NPS by 20 points across key segments",
-      "Designed and launched a personalized upsell experience at checkout with integrated promos, driving a 10% revenue increase",
+      "Drove cross-functional delivery across engineering, design, and GTM to automate renewal and premium account workflows within Autodesk's $5B+ ARR subscription business, improving customer retention by 7%",
+      "Launched a Voice-of-Customer (VoC) Dashboard for Customer Success, aggregating social, survey, and call data across enterprise and mid-market accounts to surface at-risk users and prioritize detractor re-engagement — lifting NPS by 20 points",
+      "Designed a personalized checkout experience leveraging targeted upsell and cross-sell promotions to drive 10% revenue growth",
     ],
   },
   {
@@ -81,7 +81,7 @@ const experience = [
     period: "Aug 2021 – Nov 2021",
     location: "San Francisco, CA",
     bullets: [
-      "Built an ML framework to automate A/B testing for e-commerce clients, reducing analysis turnaround time by 20%",
+      "Built a machine learning framework to automate A/B testing for e-commerce clients, reducing turnaround time by 20%",
     ],
   },
   {
@@ -90,8 +90,8 @@ const experience = [
     period: "Jan 2020 – Dec 2020",
     location: "Bengaluru, India",
     bullets: [
-      "Analyzed user journey and behavior to identify high-impact features for nurture marketing, growing the customer base by 20%",
-      "Led end-to-end sprint delivery across a global team; shipped multi-keyword search and 3rd-party API integrations → 30% increase in average session duration",
+      "Analyzed user journey and behavior to identify features for nurture marketing, growing the customer base by 20%",
+      "Planned and led end-to-end sprint delivery across a global team; shipped multi-keyword search and 3rd-party API integrations → 30% increase in average session duration",
     ],
   },
   {
@@ -100,10 +100,10 @@ const experience = [
     period: "Aug 2015 – Jan 2020",
     location: "Bengaluru, India",
     bullets: [
-      "Promoted from Software Engineer to Tech Lead — analyzed purchasing behavior and launched bundle checkout offerings → 15% revenue increase",
-      "Led cross-functional code reviews for user onboarding, improving average page response time by 15%",
-      "Built User Management with role-based access control (RBAC) and SuperUser support to retain users across org transitions → 25% churn reduction",
-      "Introduced live order tracking and automated report generation for customers → 30% reduction in lead time",
+      "Analyzed user purchasing behavior and implemented bundle checkout offerings → 15% revenue increase",
+      "Led cross-functional team reviewing code for user onboarding, improving average page response time by 15%",
+      "Designed and implemented seamless login, registration, and onboarding flows with role-based access (SuperUsers) to retain users across org transitions → 25% churn reduction",
+      "Introduced live tracking for product requests and orders and automated report generation for customers → 30% reduction in lead time",
     ],
   },
 ];
@@ -157,25 +157,25 @@ const skillGroups = [
     label: "Product Management",
     color: "violet",
     items: [
-      "Product Strategy", "Product Roadmap and Prioritization", "User Research",
-      "A/B Testing", "OKRs/ KPIs", "Stakeholder Management",
-      "Agile / SAFe", "PRD Writing", "Go-to-Market (GTM)", "Cross-functional Leadership" 
+      "Product Roadmap", "Product Strategy", "Stakeholder Management",
+      "Cross-functional Leadership", "Go-to-Market (GTM)", "OKRs & KPIs",
+      "Experimentation", "User Behavior Insights",
     ],
   },
   {
-    label: "Technical",
+    label: "Tools & Analytics",
     color: "blue",
     items: [
-      "Python","JAVA" ,"SQL", "Machine Learning", "Data Analytics",
-      "Amplitude", "Jupyter Notebook", "TypeScript",
+      "JIRA", "Asana", "Rally", "Amplitude", "SQL", "Data Analysis",
+      "Python", "Machine Learning",
     ],
   },
   {
-    label: "Growth & Analytics",
+    label: "Growth & Monetization",
     color: "emerald",
     items: [
-      "Growth Loops", "Funnel Optimization", "Activation / Retention",
-      "Experimentation Design", "Cohort Analysis", "PLG",
+      "Funnel Optimization", "Activation / Retention", "A/B Testing",
+      "Personalization", "CRM", "Monetization Strategy", "PLG",
     ],
   },
 ];
@@ -227,8 +227,8 @@ const awards = [
 const stats = [
   { value: "10+", label: "Years of Experience" },
   { value: "30M", label: "Users on Platform" },
-  { value: "20%", label: "Retention Lift" },
-  { value: "30%", label: "Interaction Rate Lift" },
+  { value: "50%", label: "Retention Lift" },
+  { value: "30%", label: "YoY Revenue Growth" },
   { value: "+20", label: "NPS Improvement" },
   { value: "5", label: "Companies" },
 ];
@@ -274,45 +274,45 @@ const caseStudies = [
     timeline: "2024 – Present",
     tags: ["Growth", "Gamification", "Retention", "A/B Testing", "30M Users"],
     summary:
-      "How I drove a 20% retention lift for a 30M-user health & wellness platform by introducing a gamification system, membership tiering, and personalised outreach — backed by rigorous A/B experimentation.",
+      "How I drove a 50% retention lift for a 30M+ member health platform by owning the full engagement system — gamification, AI-powered personalization, membership tiering, and A/B experimentation — while scaling a $17M+ monetization platform to 30% YoY revenue growth.",
     problem:
-      "The health & wellness platform had strong acquisition numbers but struggled with long-term retention and premium user activation. Members would sign up, explore a few features, and disengage — never reaching the habits that make a health app genuinely valuable. The challenge: how do you make healthy behaviour feel rewarding enough that 30 million people keep coming back?",
+      "The health & wellness platform had strong acquisition numbers but struggled with long-term retention and premium user activation. Members would sign up, explore a few features, and disengage — never reaching the habits that make a health app genuinely valuable. Meanwhile, the monetization surface was underperforming relative to the scale of the user base. The challenge: how do you make healthy behaviour feel rewarding and profitable at 30M+ users?",
     roleDetail:
-      "As the sole PM owning the engagement and retention surface, I defined the 12-month roadmap, secured executive buy-in, wrote all PRDs, partnered with UX and engineering on delivery, and owned the experimentation programme end-to-end.",
+      "As the PM owning the engagement, retention, and monetization surface, I defined the 12-month strategy and roadmap, secured executive buy-in, wrote all PRDs, partnered with UX and engineering on delivery, and owned the experimentation programme end-to-end — including an AI-powered personalization dashboard using wearable data and recommendation models.",
     approach: [
       {
         step: "Discovery",
         detail:
-          "Analysed drop-off cohorts in Amplitude, ran user interviews, and mapped the full member journey to identify where and why users disengaged.",
+          "Analysed drop-off cohorts in Amplitude, ran user interviews, and mapped the full member journey to identify where and why users disengaged. Also audited monetization funnel for expansion gaps.",
       },
       {
         step: "Define",
         detail:
-          "Framed the core problem as a motivation gap — users lacked visible progress and social accountability. Set retention rate as the north star metric.",
+          "Framed the problem as a dual challenge: a motivation gap (no visible progress or social accountability) and a monetization gap ($17M+ platform underperforming). Set retention and revenue as co-equal north star metrics.",
       },
       {
         step: "Design",
         detail:
-          "Explored gamification frameworks and ran concept tests. Prioritised Badges, Streaks, and Team Challenges based on signal strength and engineering feasibility.",
+          "Explored gamification frameworks, AI personalization models, and monetization levers. Prioritised Badges, Streaks, Team Challenges, and an AI dashboard based on signal strength and engineering feasibility.",
       },
       {
         step: "Deliver",
         detail:
-          "Shipped in phases — Badges & Streaks first, then Team Challenges with real-time leaderboards, then membership tiering and a personalised multichannel notification strategy.",
+          "Shipped in phases — Badges & Streaks first, then Team Challenges, then the AI personalization dashboard, then membership tiering and a multichannel notification strategy.",
       },
     ],
     decision:
-      "The hardest call was sequencing. Engineering wanted to build the full tiering system first; I pushed to ship Badges & Streaks in six weeks to get retention signal early. That bet paid off — early data justified the larger tiering investment and gave us a clear direction before committing significant engineering resources.",
+      "The hardest call was sequencing. Engineering wanted to build the full tiering system first; I pushed to ship Badges & Streaks in six weeks to get retention signal early. Simultaneously, I prioritised the AI personalization dashboard over lower-confidence features — wearable-driven recommendations proved they could accelerate time-to-value by 35% and increase return visits by 18%, justifying the investment.",
     metrics: [
-      { value: "20%", label: "Retention Lift" },
-      { value: "30%", label: "Interaction Rate Lift" },
+      { value: "50%", label: "Retention Lift" },
+      { value: "30%", label: "YoY Revenue Growth" },
+      { value: "35%", label: "Faster Time-to-Value" },
       { value: "40%", label: "Engagement Boost" },
-      { value: "20%", label: "Premium Onboarding Uptick" },
-      { value: "10%", label: "Feature Adoption Lift" },
-      { value: "10%", label: "Customer Adoption Increase" },
+      { value: "20%", label: "Activation Improvement" },
+      { value: "18%", label: "Return Visit Increase" },
     ],
     outcome:
-      "The gamification system became a flagship feature of the platform. Badges & Streaks improved retention by 20% across 30M users. Team Challenges drove a 20% uptick in premium onboarding. The membership tiering system boosted engagement by 40%. The multichannel notification strategy delivered a 30% lift in interaction rates. Combined, these initiatives made measurable dents in all top-line engagement and monetisation KPIs.",
+      "The gamification and personalization systems became flagship features. Gamified retention loops drove a 50% retention lift. The AI-powered personalization dashboard accelerated time-to-value by 35% and increased return visits by 18%. The $17M+ monetization platform delivered ~30% YoY revenue growth with 10% higher user acquisition. Membership tiering boosted engagement by 40%. Combined, these initiatives moved every top-line engagement and monetization KPI.",
   },
 ];
 

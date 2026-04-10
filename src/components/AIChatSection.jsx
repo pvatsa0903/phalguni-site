@@ -43,7 +43,7 @@ const KB = [
       "cvs",
     ],
     response:
-      "At CVS Health (Feb 2024–Present), Phalguni is a Product Manager for a 30M-user health & wellness platform:\n\n• Defined 12-month roadmap; secured executive buy-in on monetization and retention strategy\n• Launched Badges & Streaks gamification → 20% retention improvement\n• Launched Team Challenges with real-time leaderboards → 20% uptick in premium user onboarding\n• Multichannel notification strategy → 30% lift in interaction rates\n• Membership tiering system → 40% engagement boost, 10% feature adoption lift\n• A/B experiments on onboarding funnel → projected 20% lift in member activation\n• Customizable financial incentives delivery → 10% increase in customer adoption",
+      "At CVS Health (Feb 2024–Present), Phalguni is a Product Manager owning growth, retention, and monetization for a 30M+ member health platform:\n\n• Scaled a $17M+ monetization platform (gift card checkout + incentives) → ~30% YoY revenue growth, 10% user acquisition lift, 30% engagement lift\n• Led 0→1 re-architecture of onboarding across 30M+ members using funnel analysis, A/B testing & behavioral analytics → 20% first-session activation improvement\n• Launched an AI-powered personalization dashboard using wearable data & recommendation models → 35% faster time-to-value, 18% more return visits\n• Designed gamified retention loops (Badges, Streaks, Team Challenges) → 50% retention lift\n• Membership tiering system → 40% engagement boost, 10% feature adoption lift\n• Multichannel notification strategy → 30% lift in interaction rates\n• Defined 12-month product strategy & roadmap; secured executive buy-in on long-term monetization",
   },
 
   // ── Experience / Career History ─────────────────────────────────
@@ -58,7 +58,7 @@ const KB = [
       "career", "resume", "background",
     ],
     response:
-      "Phalguni has 10 years of experience across five companies:\n\n📍 CVS Health (Feb 2024–Present) — Product Manager, San Francisco\n30M-user health platform · 20% retention lift · 30% interaction rate lift · A/B experimentation\n\n📍 Autodesk (Jan 2022–Sep 2023) — Product Owner, San Francisco\nAuto-renewals · NPS +20 pts · 10% revenue increase via personalized upsell at checkout\n\n📍 Tredence Inc. (Aug–Nov 2021) — Data Science Intern, San Francisco\nML framework for A/B testing automation · 20% turnaround time reduction\n\n📍 Merck Group (Jan–Dec 2020) — Project Lead, Bengaluru\nUser journey analysis · 20% customer growth · 30% session duration increase\n\n📍 Yash Technologies (Aug 2015–Jan 2020) — Tech Lead → Software Engineer, Bengaluru\n15% revenue increase · 25% churn reduction · 30% lead time reduction\n\nShe's grown from Software Engineer → Tech Lead → Project Lead → Product Owner → PM — a rare perspective that makes her a far sharper product leader.",
+      "Phalguni has 10 years of experience across five companies:\n\n📍 CVS Health (Feb 2024–Present) — Product Manager, San Francisco\n$17M+ monetization platform · 30% YoY revenue growth · 50% retention lift · AI personalization dashboard · 30M+ member platform\n\n📍 Autodesk (Jan 2022–Sep 2023) — Product Owner, San Francisco\n$5B+ ARR subscription business · VoC Dashboard · NPS +20 pts · 7% retention improvement · 10% revenue growth\n\n📍 Tredence Inc. (Aug–Nov 2021) — Data Science Intern, San Francisco\nML framework for A/B testing automation · 20% turnaround time reduction\n\n📍 Merck Group (Jan–Dec 2020) — Project Lead, Bengaluru\nUser journey analysis · 20% customer growth · 30% session duration increase\n\n📍 Yash Technologies (Aug 2015–Jan 2020) — Tech Lead → Software Engineer, Bengaluru\n15% revenue increase · 25% churn reduction · 30% lead time reduction\n\nShe's grown from Software Engineer → Tech Lead → Project Lead → Product Owner → PM — a rare perspective that makes her a far sharper product leader.",
   },
 
   // ── Projects (overview) ─────────────────────────────────────────
@@ -118,7 +118,7 @@ const KB = [
       "skills", "expertise", "tools", "technologies",
     ],
     response:
-      "Phalguni's skills span PM craft + technical depth:\n\n🎯 Product Management\nProduct strategy, roadmapping, user research, A/B testing, OKRs, stakeholder management, agile/SAFe, PRD writing\n\n💻 Technical\nPython, SQL, Machine Learning, Data Analytics, Amplitude, Jupyter, TypeScript\n\n📈 Growth & Analytics\nGrowth loops, funnel optimization, activation/retention, experimentation design, cohort analysis, PLG\n\nThis combo is rare — she earns engineering team trust by being able to speak their language.",
+      "Phalguni's skills span PM craft + technical depth:\n\n🎯 Product Management\nProduct Roadmap, Product Strategy, Stakeholder Management, Cross-functional Leadership, Go-to-Market (GTM), OKRs & KPIs, Experimentation, User Behavior Insights\n\n🛠️ Tools & Analytics\nJIRA, Asana, Rally, Amplitude, SQL, Data Analysis, Python, Machine Learning\n\n📈 Growth & Monetization\nFunnel Optimization, Activation/Retention, A/B Testing, Personalization, CRM, Monetization Strategy, PLG\n\nThis combo is rare — she earns engineering trust by speaking their language and has shipped a $17M+ monetization platform to prove it.",
   },
 
   // ── Education ───────────────────────────────────────────────────
@@ -171,7 +171,7 @@ const KB = [
       "ai", "nlp", "llm", "ml", "data science",
     ],
     response:
-      "Phalguni's AI/ML background goes well beyond the buzzword level:\n\n• Completed AI For Everyone (Coursera, 2019) — early adopter before it was trendy\n• Built real ML models: sentiment analysis (84.37% acc), purchase intent (85.45% acc)\n• Shipped a live AI-powered product: StockPulse\n• Applies ML thinking to PM work: experimentation design, instrumentation, model output interpretation\n• Currently exploring LLMs and vibe-coding AI-native products\n\nFor a PM, this technical AI fluency is genuinely rare and valuable.",
+      "Phalguni's AI/ML background goes well beyond the buzzword level:\n\n• Completed AI For Everyone (Coursera, 2019) — early adopter before it was trendy\n• Led product strategy & launch of an AI-powered personalization dashboard at CVS Health using wearable data & recommendation models → 35% faster time-to-value, 18% return visit lift\n• Built real ML models: sentiment analysis (84.37% acc), purchase intent (85.45% acc)\n• Shipped a live AI-powered product: StockPulse (weekly-stock-ace.lovable.app)\n• Applies ML thinking to PM work: experimentation design, instrumentation, model output interpretation\n• Currently exploring AI agents, markdown workflows, and AI orchestration\n\nFor a PM, this technical AI fluency is genuinely rare and valuable.",
   },
 
   // ── Python / Coding ─────────────────────────────────────────────
@@ -196,7 +196,7 @@ const KB = [
       "retention", "funnel", "conversion", "revenue",
     ],
     response:
-      "Growth & Monetization is Phalguni's core domain:\n\n• Designed and launched incentives engines and rewards flows\n• Built activation KPI frameworks and instrumented analytics\n• Ran rigorous A/B experiments across onboarding funnels\n• Worked on PLG loops that drove free-to-paid conversion\n• Applied cohort analysis to understand retention and churn patterns\n\nShe approaches growth with the precision of a scientist — define the metric, run the experiment, ship what works.",
+      "Growth & Monetization is Phalguni's core domain:\n\n• Scaled a $17M+ monetization platform at CVS Health → ~30% YoY revenue growth\n• Launched AI-powered personalization dashboard → 35% faster time-to-value, 18% more return visits\n• Designed gamified retention loops → 50% retention lift across 30M+ members\n• Drove 10% revenue growth at Autodesk ($5B+ ARR) through personalized checkout\n• Ran rigorous A/B experiments across onboarding funnels; improved first-session activation by 20%\n• Applied cohort analysis to understand retention and churn patterns\n\nShe approaches growth with the precision of a scientist — define the metric, run the experiment, ship what works.",
   },
 
   // ── Contact / Reach ─────────────────────────────────────────────
@@ -222,7 +222,7 @@ const KB = [
       "why hire", "strengths", "value add", "unique", "stand out",
     ],
     response:
-      "What makes Phalguni stand out as a PM:\n\n🎯 Data-first — She instruments everything and lets data drive decisions, not gut feel alone\n\n💻 Technical depth — Codes in Python, trains ML models, ships live products. Engineers respect her.\n\n🚀 Proven outcomes — Double-digit lifts in activation/retention, millions in GMV from the incentives engine\n\n🤝 Cross-functional leadership — 10 years aligning engineers, designers, and business stakeholders\n\n🧠 AI-native — Understands AI deeply enough to product-ize it effectively\n\nShe's the rare PM who can both write the PRD and review the model performance.",
+      "What makes Phalguni stand out as a PM:\n\n🎯 Data-first — She instruments everything and lets data drive decisions. Ran funnel analysis, A/B tests, and behavioral analytics at 30M+ user scale.\n\n💻 Technical depth — Codes in Python, trains ML models, ships live AI products. Engineers respect her.\n\n🚀 Proven outcomes — Scaled a $17M+ monetization platform to 30% YoY revenue growth. 50% retention lift. +20 NPS. AI dashboard that cut time-to-value by 35%.\n\n🤝 Cross-functional leadership — 10 years aligning engineers, designers, GTM, and business stakeholders at CVS Health, Autodesk, and more.\n\n🧠 AI-native — Launched an AI-powered personalization dashboard in production. Not just a buzzword user.\n\nShe's the rare PM who can write the PRD, interpret the model output, and present the business case to the exec team — all in the same week.",
   },
 
   // ── Agile / SAFe ────────────────────────────────────────────────
