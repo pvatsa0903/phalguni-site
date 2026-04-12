@@ -131,7 +131,7 @@ const KB = [
       "skills", "expertise", "tools", "technologies",
     ],
     response:
-      "Phalguni's skills span PM craft + technical depth:\n\n🎯 Product Management\nProduct Roadmap, Product Strategy, Stakeholder Management, Cross-functional Leadership, Go-to-Market (GTM), OKRs & KPIs, Experimentation, User Behavior Insights\n\n🛠️ Tools & Analytics\nJIRA, Asana, Rally, Amplitude, SQL, Data Analysis, Python, Machine Learning\n\n📈 Growth & Monetization\nFunnel Optimization, Activation/Retention, A/B Testing, Personalization, CRM, Monetization Strategy, PLG\n\nThis combo is rare — she earns engineering trust by speaking their language and has shipped a $17M+ monetization platform to prove it.",
+      "Phalguni's skills span PM craft + technical depth:\n\n🎯 Product Management\nProduct Roadmap, Product Strategy, Stakeholder Management, Cross-functional Leadership, Go-to-Market (GTM), OKRs & KPIs, Experimentation, User Behavior Insights\n\n🛠️ Tools & Analytics\nJIRA, Asana, Rally, Amplitude, SQL, Data Analysis, Python, Machine Learning\n\n📈 Growth & Monetization\nFunnel Optimization, Activation/Retention, A/B Testing, AI-driven Experimentation, Personalization, CRM, Global Payments, Monetization Strategy, PLG\n\nThis combo is rare — she earns engineering trust by speaking their language and has shipped a $17M+ monetization platform to prove it.",
   },
 
   // ── Education ───────────────────────────────────────────────────

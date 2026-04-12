@@ -184,6 +184,7 @@ const skillGroups = [
     items: [
       "Funnel Optimization", "Activation / Retention", "A/B Testing",
       "Personalization", "CRM", "Monetization Strategy", "PLG",
+      "AI-driven Experimentation", "Global Payments",
     ],
   },
 ];
