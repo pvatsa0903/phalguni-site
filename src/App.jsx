@@ -645,19 +645,21 @@ export default function App() {
           <SectionHeader icon={<Briefcase size={20} />} title="About" />
           <Card>
             <p className="text-base leading-relaxed text-slate-700 dark:text-slate-200">
-              I&apos;m a product manager focused on bringing clarity to complex problems and turning <strong>user behavior</strong> into <strong>scalable growth systems</strong>.
-              My sweet spot is <strong>activation, subscriptions, and monetization</strong> — designing the right incentives,
-              habit loops, and product experiments that compound over time.
+              Product leader with 10 years of experience in <strong>B2B and B2C SaaS</strong> across healthcare, tech, and data science.
+              I specialize in turning user behavior into <strong>scalable growth systems</strong> — with proven success in <strong>0→1 launches</strong>,
+              growth, retention, and monetization. My sweet spot is designing the right incentives, habit loops, and experiments that
+              deliver measurable impact.
             </p>
             <p className="mt-3 text-base leading-relaxed text-slate-700 dark:text-slate-200">
-              Most teams don&apos;t struggle with ideas — they struggle with structure. I specialize in taking ambiguous spaces and breaking them down into
+              Most teams don&apos;t struggle with ideas — they struggle with structure. I take ambiguous spaces and break them into
               clear problem definitions, sharp hypotheses, and focused execution paths. My approach: start with how users <em>actually</em> behave,
-              identify the highest-leverage moments in their journey, then design habit loops and systems that scale.
+              identify the highest-leverage moments in the journey, then build systems that compound over time.
             </p>
             <p className="mt-3 text-base leading-relaxed text-slate-700 dark:text-slate-200">
-              What makes me different: I don&apos;t just PM — I <strong>build</strong>. I use AI as a thinking partner across the full product lifecycle —
-              from early-stage exploration to validation and stakeholder communication — to increase both speed and quality of decision-making.
-              I write Python, train ML models, and ship live web apps. That technical depth means faster collaboration with engineers and sharper requirements.
+              What makes me different: I don&apos;t just PM — I <strong>build</strong>. I have deep expertise in <strong>AI-driven experimentation</strong>,
+              CRM, and global payments, and I use AI as a thinking partner across the full product lifecycle.
+              I write Python, train ML models, and ship live products — giving me the technical depth to collaborate faster with engineers
+              and define sharper, user-centric requirements.
             </p>
             <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800">
               <p className="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-2">Areas I&apos;m drawn to</p>
