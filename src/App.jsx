@@ -96,12 +96,20 @@ const experience = [
   },
   {
     company: "Yash Technologies",
-    role: "Tech Lead → Software Engineer",
-    period: "Aug 2015 – Jan 2020",
+    role: "Tech Lead",
+    period: "Apr 2018 – Jan 2020",
     location: "Bengaluru, India",
     bullets: [
-      "Analyzed user purchasing behavior and implemented bundle checkout offerings → 15% revenue increase",
+      "Analyzed user purchasing behavior and implemented bundle checkout offerings at checkout → 15% revenue increase",
       "Led cross-functional team reviewing code for user onboarding, improving average page response time by 15%",
+    ],
+  },
+  {
+    company: "Yash Technologies",
+    role: "Software Engineer",
+    period: "Aug 2015 – Apr 2018",
+    location: "Bengaluru, India",
+    bullets: [
       "Designed and implemented seamless login, registration, and onboarding flows with role-based access (SuperUsers) to retain users across org transitions → 25% churn reduction",
       "Introduced live tracking for product requests and orders and automated report generation for customers → 30% reduction in lead time",
     ],
