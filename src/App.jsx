@@ -30,14 +30,14 @@ import AIChatSection from "./components/AIChatSection";
 
 const profile = {
   name: "Phalguni Vatsa",
-  title: "Product Manager",
+  title: "Digital Product Manager",
   subtitle: "Growth · Retention · Monetization",
   blurb:
-    "Product leader with 10 years in B2B & B2C SaaS across healthcare, tech, and data science. Proven track record in 0→1 launches, growth, retention, and monetization — with expertise in AI-driven experimentation, CRM, and global payments.",
+    "Product Manager specializing in B2B & B2C SaaS — growth and monetization systems at scale (30M+ users, $17M+ GMV). Proven in 0→1 launches, A/B experimentation, onboarding, retention, and monetization, with expertise in AI-driven workflows, CRM, and global payments.",
   location: "San Francisco, CA",
   highlights: [
-    "Scaled a $17M+ monetization platform at CVS Health — 30% YoY revenue growth, 50% retention lift, 30M+ users",
-    "Launched AI-powered personalization dashboard accelerating time-to-value by 35% and improving DAU by 18%",
+    "Led scale-up of $17M+ wallet & incentives platform at CVS Health — ~30% YoY revenue growth, 30M+ users",
+    "Built AI-powered personalization platform with wearable data & recommendation models — 15% faster time-to-value",
     "Drove 10% revenue growth at Autodesk ($5B+ ARR) via personalized checkout and VoC-led NPS improvement of +20 pts",
   ],
   email: "phalguni.vats@gmail.com",
@@ -51,28 +51,28 @@ const profile = {
 const experience = [
   {
     company: "CVS Health",
-    role: "Product Manager",
+    role: "Digital Product Manager",
     period: "Feb 2024 – Present",
     location: "San Francisco, CA",
     bullets: [
-      "Scaled a $17M+ monetization platform (gift card checkout + incentives), delivering ~30% YoY revenue growth, increasing user acquisition by 10% and user engagement by 30%",
-      "Led 0→1 re-architecture and experimentation strategy for onboarding across a 30M+ member platform — using funnel analysis, A/B testing, and behavioral analytics to improve first-session activation by 20%",
-      "Led product strategy and launch of an AI-powered personalization dashboard surfacing actionable health insights via wearable data and recommendation models — accelerating time-to-value by 35% and improving DAU by 18%",
-      "Designed and owned product strategy for gamified habit loops and retention loops (Badges, Streaks, Team Challenges), translating behavioral analytics into scalable engagement systems that drive stickiness — increasing retention by 50%",
-      "Introduced a membership tiering system unlocking premium perks → 40% boost in engagement and 10% lift in feature adoption",
-      "Orchestrated a multichannel notification strategy to personalize outreach based on user behavior signals, delivering a 30% lift in interaction rates",
-      "Defined a 12-month product strategy and roadmap for a 30M-user health platform, evaluating build vs partner tradeoffs and securing executive buy-in on long-term monetization and retention strategy",
+      "Led product strategy and scale-up of a wallet and incentives platform powering $17M+ GMV; strengthened fraud-resilient redemption and fulfillment systems (12-hour SLA), contributing to ~30% YoY revenue growth",
+      "Led A/B experimentation and 0→1 onboarding platform redesign for a 30M+ users Health & Wellness app, improving identity flows and instrumentation to increase activation by 20%",
+      "Built AI-powered personalization platform leveraging behavioral and wearable data; integrated recommendation models into core user journey improving time-to-value by 15%",
+      "Introduced a membership tiering system unlocking premium perks, boosting engagement by 40% and feature adoption by 10%",
+      "Designed, scaled and launched gamified features (Badges, Streaks, Team Challenges) to drive social motivation and increase retention by 30% for a Health and Wellness app",
+      "Launched social discovery feed ('For You') using behavioral ranking signals to strengthen network effects and drive stickiness",
     ],
   },
   {
     company: "Autodesk",
-    role: "Product Owner",
+    role: "GTM Product Manager",
     period: "Jan 2022 – Sep 2023",
     location: "San Francisco, CA",
     bullets: [
-      "Drove cross-functional delivery across engineering, design, and GTM to automate renewal and premium account workflows within Autodesk's $5B+ ARR subscription business, improving customer retention by 7%",
-      "Launched a Voice-of-Customer (VoC) Dashboard for Customer Success, aggregating social, survey, and call data across enterprise and mid-market accounts to surface at-risk users and prioritize detractor re-engagement — lifting NPS by 20 points",
-      "Designed a personalized checkout experience leveraging targeted upsell and cross-sell promotions to drive 10% revenue growth",
+      "Partnered with UX and engineering to drive automation of renewal and premium account workflows within Autodesk's $5B+ ARR subscription system; improved retention by 7% through lifecycle and pricing optimization",
+      "Launched a Voice-of-Customer (VoC) Dashboard for Customer Success, aggregating social, survey, and call data to surface at-risk users, prioritize detractor re-engagement — lifting NPS by 20 points",
+      "Designed a personalized checkout experience, leveraging targeted upsell promotions to drive 10% revenue growth",
+      "Led pilot to expand into emerging markets, testing an outsourced customer success model; built A/B experiments with data science to validate cost and revenue impact and inform a go/no-go decision",
     ],
   },
   {
@@ -101,7 +101,7 @@ const experience = [
     location: "Bengaluru, India",
     bullets: [
       "Analyzed user purchasing behavior and implemented bundle checkout offerings at checkout → 15% revenue increase",
-      "Led cross-functional team reviewing code for user onboarding, improving average page response time by 15%",
+      "Led cross-functional team reviewing code for user onboarding, ensuring a 25% improvement in average page response time",
     ],
   },
   {
@@ -162,29 +162,29 @@ const projects = [
 
 const skillGroups = [
   {
-    label: "Product Management",
+    label: "Product & Systems",
     color: "violet",
     items: [
-      "Product Roadmap", "Product Strategy", "Stakeholder Management",
-      "Cross-functional Leadership", "Go-to-Market (GTM)", "OKRs & KPIs",
-      "Experimentation", "User Behavior Insights",
+      "Onboarding & Activation", "Monetization & Incentives", "Personalization & Insights",
+      "Retention Systems", "AI-Assisted Prototyping", "Go-to-Market (GTM)",
+      "Product Roadmap", "Cross-functional Leadership",
     ],
   },
   {
-    label: "Tools & Analytics",
+    label: "Data & Technical",
     color: "blue",
     items: [
-      "JIRA", "Asana", "Rally", "Amplitude", "SQL", "Data Analysis",
-      "Python", "Machine Learning",
+      "A/B Testing", "Experimentation", "OKRs & KPIs",
+      "Amplitude", "Google Analytics", "SQL", "APIs", "ML-integrated Products",
     ],
   },
   {
     label: "Growth & Monetization",
     color: "emerald",
     items: [
-      "Funnel Optimization", "Activation / Retention", "A/B Testing",
-      "Personalization", "CRM", "Monetization Strategy", "PLG",
-      "AI-driven Experimentation", "Global Payments",
+      "Funnel Optimization", "Activation / Retention", "Personalization",
+      "CRM", "Monetization Strategy", "Global Payments",
+      "AI-driven Experimentation", "PLG",
     ],
   },
 ];
@@ -236,7 +236,7 @@ const awards = [
 const stats = [
   { value: "10+", label: "Years of Experience" },
   { value: "30M", label: "Users on Platform" },
-  { value: "50%", label: "Retention Lift" },
+  { value: "30%", label: "Retention Lift" },
   { value: "30%", label: "YoY Revenue Growth" },
   { value: "+20", label: "NPS Improvement" },
   { value: "5", label: "Companies" },
