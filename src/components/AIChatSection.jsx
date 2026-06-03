@@ -56,7 +56,7 @@ const KB = [
       "cvs",
     ],
     response:
-      "At CVS Health (Feb 2024–Present), Phalguni is a Digital Product Manager owning growth, retention, and monetization for a 30M+ user health platform:\n\n• Led scale-up of a wallet & incentives platform powering $17M+ GMV; fraud-resilient fulfillment systems (12-hr SLA) → ~30% YoY revenue growth\n• Led A/B experimentation and 0→1 onboarding platform redesign for 30M+ users → 20% activation improvement\n• Built AI-powered personalization platform with wearable data & recommendation models → 15% faster time-to-value\n• Membership tiering system → 40% engagement boost, 10% feature adoption lift\n• Launched gamified features (Badges, Streaks, Team Challenges) → 30% retention lift\n• Social discovery feed ('For You') using behavioral ranking signals → stronger network effects and stickiness",
+      "At CVS Health (Feb 2024–Present), Phalguni is a Digital Product Manager owning growth, retention, and monetization for a 30M+ user Health & Wellness platform:\n\n• Led scale-up of a wallet & incentives platform powering $17M+ GMV; fraud-resilient fulfillment systems (12-hr SLA) → ~30% YoY revenue growth\n• Led A/B experimentation and 0→1 onboarding platform redesign for 30M+ users → 20% activation improvement\n• Built AI-powered personalization platform with real-time health scores and next-best-action recommendations → 15% faster time-to-value, accelerated member activation\n• Membership tiering system → 40% engagement boost, 10% feature adoption lift\n• Launched gamified features (Badges, Streaks, Team Challenges) → 30% retention lift\n• 'For You' feed powered by behavioral signals → 25% content engagement lift + stronger network effects",
   },
 
   // ── Experience / Career History ─────────────────────────────────
@@ -131,7 +131,7 @@ const KB = [
       "skills", "expertise", "tools", "technologies",
     ],
     response:
-      "Phalguni's skills span PM craft + technical depth:\n\n🎯 Product Management\nProduct Roadmap, Product Strategy, Stakeholder Management, Cross-functional Leadership, Go-to-Market (GTM), OKRs & KPIs, Experimentation, User Behavior Insights\n\n🛠️ Tools & Analytics\nJIRA, Asana, Rally, Amplitude, SQL, Data Analysis, Python, Machine Learning\n\n📈 Growth & Monetization\nFunnel Optimization, Activation/Retention, A/B Testing, AI-driven Experimentation, Personalization, CRM, Global Payments, Monetization Strategy, PLG\n\nThis combo is rare — she earns engineering trust by speaking their language and has shipped a $17M+ monetization platform to prove it.",
+      "Phalguni's skills span PM craft + technical depth:\n\n🎯 Product & Systems\nOnboarding & Activation, Monetization & Incentives, Personalization & Insights, Retention Systems, AI-Assisted Prototyping, Go-to-Market (GTM), Product Roadmap, Cross-functional Leadership\n\n🛠️ Tools & Technical\nA/B Testing, Experimentation, OKRs & KPIs, Amplitude, Google Analytics, SQL, APIs, Claude, Lovable\n\n📈 Growth & Monetization\nFunnel Optimization, Activation/Retention, Personalization, CRM, Monetization Strategy, Global Payments, AI-driven Experimentation, PLG\n\nThis combo is rare — she earns engineering trust by speaking their language and has shipped a $17M+ GMV platform to prove it.",
   },
 
   // ── Education ───────────────────────────────────────────────────

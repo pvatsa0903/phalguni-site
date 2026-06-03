@@ -33,7 +33,7 @@ const profile = {
   title: "Digital Product Manager",
   subtitle: "Growth · Retention · Monetization",
   blurb:
-    "Product Manager specializing in B2B & B2C SaaS — growth and monetization systems at scale (30M+ users, $17M+ GMV). Proven in 0→1 launches, A/B experimentation, onboarding, retention, and monetization, with expertise in AI-driven workflows, CRM, and global payments.",
+    "Product Manager with experience building and scaling B2B & B2C SaaS products for 30M+ users and $17M+ revenue. Expertise in growth, monetization, onboarding and activation, experimentation, 0→1 product development and launches, AI-powered products, CRM, and global payments.",
   location: "San Francisco, CA",
   highlights: [
     "Led scale-up of $17M+ wallet & incentives platform at CVS Health — ~30% YoY revenue growth, 30M+ users",
@@ -57,10 +57,10 @@ const experience = [
     bullets: [
       "Led product strategy and scale-up of a wallet and incentives platform powering $17M+ GMV; strengthened fraud-resilient redemption and fulfillment systems (12-hour SLA), contributing to ~30% YoY revenue growth",
       "Led A/B experimentation and 0→1 onboarding platform redesign for a 30M+ users Health & Wellness app, improving identity flows and instrumentation to increase activation by 20%",
-      "Built AI-powered personalization platform leveraging behavioral and wearable data; integrated recommendation models into core user journey improving time-to-value by 15%",
+      "Built an AI-powered personalization platform leveraging behavioral and wearable data to deliver real-time health scores and next-best-action recommendations, accelerating member activation and reducing time-to-value by 15%",
       "Introduced a membership tiering system unlocking premium perks, boosting engagement by 40% and feature adoption by 10%",
       "Designed, scaled and launched gamified features (Badges, Streaks, Team Challenges) to drive social motivation and increase retention by 30% for a Health and Wellness app",
-      "Launched social discovery feed ('For You') using behavioral ranking signals to strengthen network effects and drive stickiness",
+      "Launched a 'For You' feed powered by behavioral signals, driving content engagement by 25% and strengthening network effects",
     ],
   },
   {
@@ -69,10 +69,10 @@ const experience = [
     period: "Jan 2022 – Sep 2023",
     location: "San Francisco, CA",
     bullets: [
-      "Partnered with UX and engineering to drive automation of renewal and premium account workflows within Autodesk's $5B+ ARR subscription system; improved retention by 7% through lifecycle and pricing optimization",
+      "Partnered with UX and engineering to make trade-offs and drive automation of renewal and premium account workflows within Autodesk's $5B+ ARR subscription system; improved retention by 7% through lifecycle and pricing optimization",
       "Launched a Voice-of-Customer (VoC) Dashboard for Customer Success, aggregating social, survey, and call data to surface at-risk users, prioritize detractor re-engagement — lifting NPS by 20 points",
+      "Led a pilot to expand into emerging markets, testing an outsourced customer success model; built A/B experiments with data science to validate cost and revenue impact and inform a go/no-go decision",
       "Designed a personalized checkout experience, leveraging targeted upsell promotions to drive 10% revenue growth",
-      "Led pilot to expand into emerging markets, testing an outsourced customer success model; built A/B experiments with data science to validate cost and revenue impact and inform a go/no-go decision",
     ],
   },
   {
@@ -96,22 +96,14 @@ const experience = [
   },
   {
     company: "Yash Technologies",
-    role: "Tech Lead",
+    role: "Senior Software Engineer",
     period: "Apr 2018 – Jan 2020",
     location: "Bengaluru, India",
     bullets: [
-      "Analyzed user purchasing behavior and implemented bundle checkout offerings at checkout → 15% revenue increase",
-      "Led cross-functional team reviewing code for user onboarding, ensuring a 25% improvement in average page response time",
-    ],
-  },
-  {
-    company: "Yash Technologies",
-    role: "Software Engineer",
-    period: "Aug 2015 – Apr 2018",
-    location: "Bengaluru, India",
-    bullets: [
-      "Designed and implemented seamless login, registration, and onboarding flows with role-based access (SuperUsers) to retain users across org transitions → 25% churn reduction",
-      "Introduced live tracking for product requests and orders and automated report generation for customers → 30% reduction in lead time",
+      "Analyzed user purchasing behavior and implemented bundle offerings at checkout, increasing revenue by 15%",
+      "Led a cross-functional team reviewing code for user onboarding, ensuring a 25% improvement in average page response time",
+      "Designed and implemented seamless login, registration, and onboarding flows with role-based access (SuperUsers) to retain users transitioning between organizations, improving continuity and reducing churn by 25%",
+      "Introduced live tracking for product requests and orders, and report generation for customers, reducing lead time by 30%",
     ],
   },
 ];
@@ -171,11 +163,11 @@ const skillGroups = [
     ],
   },
   {
-    label: "Data & Technical",
+    label: "Tools & Technical",
     color: "blue",
     items: [
       "A/B Testing", "Experimentation", "OKRs & KPIs",
-      "Amplitude", "Google Analytics", "SQL", "APIs", "ML-integrated Products",
+      "Amplitude", "Google Analytics", "SQL", "APIs", "Claude", "Lovable",
     ],
   },
   {
