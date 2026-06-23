@@ -30,14 +30,14 @@ import AIChatSection from "./components/AIChatSection";
 
 const profile = {
   name: "Phalguni Vatsa",
-  title: "Digital Product Manager",
-  subtitle: "Growth · Retention · Monetization",
+  title: "Product Manager – AI & Digital Platform",
+  subtitle: "AI Products · Growth · Monetization",
   blurb:
     "Product Manager with experience building and scaling B2B & B2C SaaS products for 30M+ users and $17M+ revenue. Expertise in growth, monetization, onboarding and activation, experimentation, 0→1 product development and launches, AI-powered products, CRM, and global payments.",
   location: "San Francisco, CA",
   highlights: [
-    "Led scale-up of $17M+ wallet & incentives platform at CVS Health — ~30% YoY revenue growth, 30M+ users",
-    "Built AI-powered personalization platform with wearable data & recommendation models — 15% faster time-to-value",
+    "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant (RAG + LLM) at CVS Health — AI governance framework adopted across 8 teams",
+    "Led AI-informed strategy for a $17M+ rewards platform — ~30% YoY revenue growth across a 30M+ user platform",
     "Drove 10% revenue growth at Autodesk ($5B+ ARR) via personalized checkout and VoC-led NPS improvement of +20 pts",
   ],
   email: "phalguni.vats@gmail.com",
@@ -51,16 +51,39 @@ const profile = {
 const experience = [
   {
     company: "CVS Health",
-    role: "Digital Product Manager",
+    note: "Contract via APN Consulting",
+    role: "Product Manager – AI & Digital Platform",
     period: "Feb 2024 – Present",
     location: "San Francisco, CA",
     bullets: [
-      "Led product strategy and scale-up of a wallet and incentives platform powering $17M+ GMV; strengthened fraud-resilient redemption and fulfillment systems (12-hour SLA), contributing to ~30% YoY revenue growth",
-      "Led A/B experimentation and 0→1 onboarding platform redesign for a 30M+ users Health & Wellness app, improving identity flows and instrumentation to increase activation by 20%",
-      "Built an AI-powered personalization platform leveraging behavioral and wearable data to deliver real-time health scores and next-best-action recommendations, accelerating member activation and reducing time-to-value by 15%",
-      "Introduced a membership tiering system unlocking premium perks, boosting engagement by 40% and feature adoption by 10%",
-      "Designed, scaled and launched gamified features (Badges, Streaks, Team Challenges) to drive social motivation and increase retention by 30% for a Health and Wellness app",
-      "Launched a 'For You' feed powered by behavioral signals, driving content engagement by 25% and strengthening network effects",
+      {
+        label: "AI Product Delivery (GenAI/LLM/RAG)",
+        text: "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant (RAG + LLM routing across Salesforce & SharePoint), sequencing from MVP through PHI-compliant ingestion and multi-agent orchestration",
+      },
+      {
+        label: "AI Lifecycle Governance",
+        text: "Established an AI lifecycle governance framework for PHI-handling systems — prompt guardrails, escalation thresholds, and feedback loops — adopted across 8 teams enabling cross-org deployment",
+      },
+      {
+        label: "Predictive Analytics & ML Engine",
+        text: "Defined requirements for a multi-layer ML health scoring system, unifying wearable, behavioral, and clinical data in a real-time feature store with a lift model for intervention prediction — reducing time-to-value by 15%",
+      },
+      {
+        label: "Data Pipelines & System Integration",
+        text: "Led MCP integration across Apple Health, pharmacy, and insurance APIs, cutting per-source integration time from 3 months to 3 weeks; members saw +22% activation and +18% 60-day retention",
+      },
+      {
+        label: "Sprint & Backlog Ownership",
+        text: "Owned backlog and delivery across 6 cross-functional teams (30M-user platform); drove 0→1 onboarding redesign via A/B testing and funnel instrumentation, lifting activation by 20%",
+      },
+      {
+        label: "Incentives Platform & Analytics",
+        text: "Led AI-informed strategy for a $17M+ rewards platform — fraud detection, multi-currency redemption, and vendor SLA reduction from 3 days to 12 hours — contributing to ~30% YoY revenue growth",
+      },
+      {
+        label: "Stakeholder & Client Engagement",
+        text: "Primary product contact for 150+ stakeholders across regulatory, legal, clinical, and engineering — facilitated requirement workshops, exec updates, and AI prototype demos to validate concepts pre-investment",
+      },
     ],
   },
   {
@@ -158,8 +181,8 @@ const skillGroups = [
     color: "violet",
     items: [
       "Onboarding & Activation", "Monetization & Incentives", "Personalization & Insights",
-      "Retention Systems", "AI-Assisted Prototyping", "Go-to-Market (GTM)",
-      "Product Roadmap", "Cross-functional Leadership",
+      "Retention Systems", "AI-Assisted Prototyping", "GenAI / LLM / RAG",
+      "AI Lifecycle Governance", "Go-to-Market (GTM)", "Product Roadmap", "Cross-functional Leadership",
     ],
   },
   {
@@ -167,7 +190,8 @@ const skillGroups = [
     color: "blue",
     items: [
       "A/B Testing", "Experimentation", "OKRs & KPIs",
-      "Amplitude", "Google Analytics", "SQL", "APIs", "Claude", "Lovable",
+      "Amplitude", "Google Analytics", "SQL", "APIs", "MCP Integration",
+      "Claude", "Lovable",
     ],
   },
   {
@@ -228,7 +252,7 @@ const awards = [
 const stats = [
   { value: "10+", label: "Years of Experience" },
   { value: "30M", label: "Users on Platform" },
-  { value: "30%", label: "Retention Lift" },
+  { value: "+18%", label: "60-Day Retention" },
   { value: "30%", label: "YoY Revenue Growth" },
   { value: "+20", label: "NPS Improvement" },
   { value: "5", label: "Companies" },
@@ -269,51 +293,51 @@ const testimonials = [
 
 const caseStudies = [
   {
-    title: "Gamification & Retention at Scale",
+    title: "Building a HIPAA-Compliant Multi-Agent AI Assistant",
     company: "CVS Health",
-    role: "Product Manager",
+    role: "Product Manager – AI & Digital Platform",
     timeline: "2024 – Present",
-    tags: ["Growth", "Gamification", "Retention", "A/B Testing", "30M Users"],
+    tags: ["GenAI", "LLM", "RAG", "Healthcare", "AI Governance"],
     summary:
-      "How I drove a 50% retention lift for a 30M+ member health platform by owning the full engagement system — gamification, AI-powered personalization, membership tiering, and A/B experimentation — while scaling a $17M+ monetization platform to 30% YoY revenue growth.",
+      "How I drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant — combining RAG and LLM routing across Salesforce & SharePoint — and built the AI governance framework that let 8 teams safely deploy PHI-handling AI systems.",
     problem:
-      "The health & wellness platform had strong acquisition numbers but struggled with long-term retention and premium user activation. Members would sign up, explore a few features, and disengage — never reaching the habits that make a health app genuinely valuable. Meanwhile, the monetization surface was underperforming relative to the scale of the user base. The challenge: how do you make healthy behaviour feel rewarding and profitable at 30M+ users?",
+      "Internal teams needed fast, accurate answers pulled from systems containing PHI (Salesforce, SharePoint) — but no AI assistant could touch that data without rigorous compliance guardrails, escalation logic, and auditability. Most GenAI pilots stall here: compliance blocks deployment before it ever reaches real users. The challenge: ship real AI value without waiting for a perfect governance framework first.",
     roleDetail:
-      "As the PM owning the engagement, retention, and monetization surface, I defined the 12-month strategy and roadmap, secured executive buy-in, wrote all PRDs, partnered with UX and engineering on delivery, and owned the experimentation programme end-to-end — including an AI-powered personalization dashboard using wearable data and recommendation models.",
+      "As the PM owning AI product delivery, I sequenced the build from MVP through PHI-compliant ingestion to full multi-agent orchestration — partnering with engineering on RAG architecture and LLM routing, and with legal/compliance on the governance framework that unlocked adoption across the org.",
     approach: [
       {
         step: "Discovery",
         detail:
-          "Analysed drop-off cohorts in Amplitude, ran user interviews, and mapped the full member journey to identify where and why users disengaged. Also audited monetization funnel for expansion gaps.",
+          "Mapped which internal workflows needed answers from PHI-containing systems, and audited what compliance, legal, and security would require before any LLM could touch that data.",
       },
       {
         step: "Define",
         detail:
-          "Framed the problem as a dual challenge: a motivation gap (no visible progress or social accountability) and a monetization gap ($17M+ platform underperforming). Set retention and revenue as co-equal north star metrics.",
+          "Framed the problem as twin-track: build the multi-agent RAG architecture, and in parallel define the governance framework (prompt guardrails, escalation thresholds, feedback loops) needed for sign-off.",
       },
       {
         step: "Design",
         detail:
-          "Explored gamification frameworks, AI personalization models, and monetization levers. Prioritised Badges, Streaks, Team Challenges, and an AI dashboard based on signal strength and engineering feasibility.",
+          "Designed multi-agent orchestration routing queries across Salesforce and SharePoint via RAG, with PHI-compliant ingestion pipelines and clear escalation paths to humans for high-risk queries.",
       },
       {
         step: "Deliver",
         detail:
-          "Shipped in phases — Badges & Streaks first, then Team Challenges, then the AI personalization dashboard, then membership tiering and a multichannel notification strategy.",
+          "Shipped a narrow MVP first to prove RAG retrieval quality, then layered in PHI-compliant ingestion, then full multi-agent orchestration — sequencing delivery so compliance sign-off tracked the build instead of blocking it.",
       },
     ],
     decision:
-      "The hardest call was sequencing. Engineering wanted to build the full tiering system first; I pushed to ship Badges & Streaks in six weeks to get retention signal early. Simultaneously, I prioritised the AI personalization dashboard over lower-confidence features — wearable-driven recommendations proved they could accelerate time-to-value by 35% and improve DAU by 18%, justifying the investment.",
+      "The hardest call was running compliance and product work in parallel rather than waiting for full governance sign-off before building anything. I pushed to ship an MVP on non-PHI data first to prove the RAG architecture worked, while the governance framework was reviewed alongside — derisking both tracks instead of serializing them and stalling the whole initiative.",
     metrics: [
-      { value: "50%", label: "Retention Lift" },
-      { value: "30%", label: "YoY Revenue Growth" },
-      { value: "35%", label: "Faster Time-to-Value" },
-      { value: "40%", label: "Engagement Boost" },
-      { value: "20%", label: "Activation Improvement" },
-      { value: "18%", label: "Return Visit Increase" },
+      { value: "8", label: "Teams Adopting Framework" },
+      { value: "150+", label: "Stakeholders Engaged" },
+      { value: "+22%", label: "Activation Lift" },
+      { value: "+18%", label: "60-Day Retention" },
+      { value: "15%", label: "Faster Time-to-Value" },
+      { value: "~30%", label: "YoY Revenue Growth" },
     ],
     outcome:
-      "The gamification and personalization systems became flagship features. Gamified retention loops drove a 50% retention lift. The AI-powered personalization dashboard accelerated time-to-value by 35% and improved DAU by 18%. The $17M+ monetization platform delivered ~30% YoY revenue growth with 10% higher user acquisition. Membership tiering boosted engagement by 40%. Combined, these initiatives moved every top-line engagement and monetization KPI.",
+      "The multi-agent AI assistant became the template for safe GenAI deployment at scale — the governance framework was adopted across 8 teams, unlocking cross-org AI deployment. Combined with the ML health-scoring engine and MCP-integrated data pipelines (Apple Health, pharmacy, insurance), the work lifted member activation by 22% and 60-day retention by 18%, while the $17M+ incentives platform it informed grew revenue ~30% YoY.",
   },
 ];
 
@@ -705,6 +729,9 @@ export default function App() {
                     <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">
                       <div>
                         <div className="font-bold text-base">{job.company}</div>
+                        {job.note && (
+                          <div className="text-xs text-slate-400 dark:text-slate-500">{job.note}</div>
+                        )}
                         <div className="text-sm text-violet-600 dark:text-violet-400 font-medium">{job.role}</div>
                       </div>
                       <div className="text-right shrink-0">
@@ -716,7 +743,15 @@ export default function App() {
                     </div>
                     <ul className="list-disc ml-4 space-y-1.5 text-sm text-slate-700 dark:text-slate-300">
                       {job.bullets.map((b, j) => (
-                        <li key={j}>{b}</li>
+                        <li key={j}>
+                          {typeof b === "object" ? (
+                            <>
+                              <strong className="text-slate-900 dark:text-slate-100">{b.label}:</strong> {b.text}
+                            </>
+                          ) : (
+                            b
+                          )}
+                        </li>
                       ))}
                     </ul>
                   </Card>
