@@ -30,13 +30,13 @@ import AIChatSection from "./components/AIChatSection";
 
 const profile = {
   name: "Phalguni Vatsa",
-  title: "Product Manager – AI & Digital Products",
+  title: "Product Manager – AI & Digital Platform",
   subtitle: "AI Products · Growth · Monetization",
   blurb:
     "Product Manager with 10+ years of experience and a foundation in software engineering and data — building and scaling B2B & B2C SaaS products serving 13M+ users and generating $17M+ in annual revenue. Expertise in growth, monetization, activation, experimentation, AI-powered products, CRM, global payments, and 0→1 product development.",
   location: "San Francisco, CA",
   highlights: [
-    "Built a multi-layer ML health-scoring engine and led a 0→1 onboarding redesign for a 13M+ user Health & Wellness app — 15% faster activation, 20% activation lift",
+    "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant (GenAI, RAG, agent orchestration) at CVS Health — 50K+ monthly queries, 20% lower support costs, AI governance framework adopted across 8 teams",
     "Led product strategy for a $17M+ wallet & incentives platform — ~30% YoY revenue growth across a 13M+ user platform",
     "Drove 10% revenue growth at Autodesk ($5B+ ARR) via personalized checkout and VoC-led NPS improvement of +20 pts",
   ],
@@ -51,29 +51,46 @@ const profile = {
 const experience = [
   {
     company: "CVS Health",
-    role: "Product Manager – AI & Digital Products",
+    note: "Contract via APN Consulting",
+    role: "Product Manager – AI & Digital Platform",
     period: "Feb 2024 – Present",
     location: "San Francisco, CA",
     bullets: [
+      {
+        label: "AI Product Delivery (GenAI/LLM/RAG)",
+        text: "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant (RAG + LLM routing across Salesforce & SharePoint), sequencing from MVP through PHI-compliant ingestion and multi-agent orchestration, supporting 50K+ monthly queries and reducing support costs by 20%",
+      },
+      {
+        label: "AI Lifecycle Governance",
+        text: "Established an AI lifecycle governance framework for PHI-handling systems — prompt guardrails, escalation thresholds, and feedback loops — adopted across 8 teams enabling cross-org deployment",
+      },
       {
         label: "Predictive Analytics & ML Engine",
         text: "Built a multi-layer ML health scoring system, leveraging behavioral and wearable data to deliver real-time health scores and next-best-action recommendations, accelerating member activation by 15%",
       },
       {
+        label: "Product Vision & Strategy",
+        text: "Led product strategy and scale-up of a wallet and incentives platform powering $17M+ GMV; strengthened fraud-resilient redemption and fulfillment systems (12-hour SLA), contributing to ~30% YoY revenue growth",
+      },
+      {
+        label: "Sprint & Backlog Ownership",
+        text: "Owned backlog and delivery across 6 cross-functional teams (13M-user platform); drove 0→1 onboarding redesign via A/B testing and funnel instrumentation, improving identity flows and lifting activation by 20%",
+      },
+      {
         label: "Metrics & KPIs",
-        text: "Introduced a membership tiering system unlocking premium perks, boosting feature adoption by 10%",
+        text: "Introduced a membership tiering system unlocking premium perks, boosting engagement by 40% and feature adoption by 10%",
       },
       {
         label: "Customer-Centric Mindset",
-        text: "Designed, scaled and launched gamified features (Badges, Streaks, Team Challenges) to drive social motivation and increase user engagement by 30% for a Health & Wellness app",
+        text: "Designed, scaled and launched gamified features (Badges, Streaks, Team Challenges) to drive social motivation and increase retention by 30% for a Health & Wellness app",
       },
       {
-        label: "Data-Driven Decision Making",
-        text: "Led A/B experimentation and 0→1 onboarding platform redesign for a Health & Wellness app serving 13M+ users, improving identity flows and instrumentation to increase activation by 20%",
+        label: "Multichannel Engagement",
+        text: "Orchestrated a multichannel notification strategy to personalize outreach, resulting in a 30% lift in interaction rate",
       },
       {
-        label: "Product Vision & Strategy",
-        text: "Led product strategy and scale-up of a wallet and incentives platform powering $17M+ GMV; strengthened fraud-resilient redemption and fulfillment systems (12-hour SLA), contributing to ~30% YoY revenue growth",
+        label: "Stakeholder & Client Engagement",
+        text: "Primary product contact for 150+ stakeholders across regulatory, legal, clinical, and engineering — facilitated requirement workshops, exec updates, and AI prototype demos to validate concepts pre-investment",
       },
     ],
   },
@@ -184,7 +201,8 @@ const skillGroups = [
     color: "violet",
     items: [
       "Onboarding & Activation", "Monetization & Incentives", "Personalization & Insights",
-      "Retention Systems", "AI-Assisted Prototyping",
+      "Retention Systems", "AI-Assisted Prototyping", "GenAI / LLM / RAG",
+      "AI Lifecycle Governance", "Agent Orchestration",
       "Go-to-Market (GTM)", "Product Roadmap", "Cross-functional Leadership",
     ],
   },
@@ -255,7 +273,7 @@ const awards = [
 const stats = [
   { value: "10+", label: "Years of Experience" },
   { value: "13M", label: "Users on Platform" },
-  { value: "15%", label: "Faster Member Activation" },
+  { value: "20%", label: "Support Cost Reduction" },
   { value: "30%", label: "YoY Revenue Growth" },
   { value: "+20", label: "NPS Improvement" },
   { value: "5", label: "Companies" },
@@ -296,51 +314,51 @@ const testimonials = [
 
 const caseStudies = [
   {
-    title: "Scaling a $17M+ Wallet & Incentives Platform",
+    title: "Building a HIPAA-Compliant Agentic AI Platform",
     company: "CVS Health",
-    role: "Product Manager – AI & Digital Products",
+    role: "Product Manager – AI & Digital Platform",
     timeline: "2024 – Present",
-    tags: ["Monetization", "Wallet & Incentives", "Fraud Prevention", "Growth", "Healthcare"],
+    tags: ["GenAI", "Agentic AI", "RAG", "Healthcare", "AI Governance"],
     summary:
-      "How I led product strategy and scale-up of a wallet and incentives platform powering $17M+ GMV — strengthening fraud-resilient redemption and fulfillment systems while driving ~30% YoY revenue growth for a 13M+ user health platform.",
+      "How I drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant — combining GenAI, RAG, and LLM routing with agent orchestration across Salesforce & SharePoint — and built the AI governance framework that let 8 teams safely deploy PHI-handling AI systems, supporting 50K+ monthly queries and cutting support costs by 20%.",
     problem:
-      "CVS's wallet and incentives platform had real GMV flowing through it, but fraud exposure and slow fulfillment SLAs were capping how aggressively the business could scale redemption volume. The challenge: grow the platform's revenue contribution without growing fraud risk or fulfillment backlog in lockstep.",
+      "Internal teams needed fast, accurate answers pulled from systems containing PHI (Salesforce, SharePoint) — but no AI assistant could touch that data without rigorous compliance guardrails, escalation logic, and auditability. Most GenAI pilots stall here: compliance blocks deployment before it ever reaches real users. The challenge: ship real AI value without waiting for a perfect governance framework first.",
     roleDetail:
-      "As the PM owning product strategy for the wallet and incentives platform, I defined the roadmap for fraud-resilient redemption, partnered with engineering and risk teams on fulfillment SLAs, and aligned stakeholders across UX, Data Science, Engineering, and Operations on the rollout.",
+      "As the PM owning AI product delivery, I sequenced the build from MVP through PHI-compliant ingestion to full multi-agent orchestration — partnering with engineering on RAG architecture and LLM routing, and with legal/compliance on the governance framework that unlocked adoption across 8 teams. I was also the primary product contact for 150+ stakeholders across regulatory, legal, clinical, and engineering.",
     approach: [
       {
         step: "Discovery",
         detail:
-          "Audited fraud patterns and fulfillment bottlenecks in the existing redemption flow, and quantified how much revenue growth was being left on the table by overly conservative fraud controls.",
+          "Mapped which internal workflows needed answers from PHI-containing systems, and audited what compliance, legal, and security would require before any LLM could touch that data.",
       },
       {
         step: "Define",
         detail:
-          "Framed the goal as a twin constraint: cut fulfillment time aggressively while making redemption more fraud-resilient, not trading one off against the other.",
+          "Framed the problem as twin-track: build the multi-agent RAG architecture, and in parallel define the governance framework (prompt guardrails, escalation thresholds, feedback loops) needed for sign-off.",
       },
       {
         step: "Design",
         detail:
-          "Designed fraud-resilient redemption logic and a fulfillment pipeline targeting a 12-hour SLA, in partnership with engineering and risk.",
+          "Designed multi-agent orchestration routing queries across Salesforce and SharePoint via RAG, with PHI-compliant ingestion pipelines and clear escalation paths to humans for high-risk queries.",
       },
       {
         step: "Deliver",
         detail:
-          "Rolled out the redemption and fulfillment improvements incrementally, monitoring fraud rates and SLA performance at each stage before scaling further.",
+          "Shipped a narrow MVP first to prove RAG retrieval quality, then layered in PHI-compliant ingestion, then full multi-agent orchestration — scaling to 50K+ monthly queries in production while governance sign-off tracked the build instead of blocking it.",
       },
     ],
     decision:
-      "The hardest call was how aggressively to loosen fraud controls to unlock revenue growth. I pushed to ship fraud-resilient redemption logic first and prove it held under real volume, before committing to the more aggressive 12-hour fulfillment SLA — sequencing risk reduction ahead of speed rather than chasing both at once.",
+      "The hardest call was running compliance and product work in parallel rather than waiting for full governance sign-off before building anything. I pushed to ship an MVP on non-PHI data first to prove the RAG architecture worked, while the governance framework was reviewed alongside — derisking both tracks instead of serializing them and stalling the whole initiative.",
     metrics: [
-      { value: "$17M+", label: "GMV Powered" },
+      { value: "50K+", label: "Monthly Queries" },
+      { value: "20%", label: "Support Cost Reduction" },
+      { value: "8", label: "Teams Adopting Framework" },
+      { value: "150+", label: "Stakeholders Engaged" },
+      { value: "15%", label: "Faster Time-to-Value" },
       { value: "~30%", label: "YoY Revenue Growth" },
-      { value: "12hr", label: "Fulfillment SLA" },
-      { value: "13M+", label: "Users on Platform" },
-      { value: "20%", label: "Activation Lift" },
-      { value: "30%", label: "Engagement Lift" },
     ],
     outcome:
-      "The wallet and incentives platform scaled to power $17M+ in GMV with fraud-resilient redemption and a 12-hour fulfillment SLA, contributing to ~30% YoY revenue growth. Combined with the onboarding redesign (20% activation lift) and gamified engagement features (30% engagement lift) across a 13M+ user platform, the work moved the business's core monetization metrics without compromising trust or fulfillment speed.",
+      "The multi-agent AI assistant now handles 50K+ monthly queries in production, cutting support costs by 20% — and the governance framework it required was adopted across 8 teams, unlocking cross-org AI deployment. Combined with the ML health-scoring engine (15% faster time-to-value) and the $17M+ wallet & incentives platform, the work fed directly into the business's ~30% YoY revenue growth.",
   },
 ];
 
