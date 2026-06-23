@@ -30,14 +30,14 @@ import AIChatSection from "./components/AIChatSection";
 
 const profile = {
   name: "Phalguni Vatsa",
-  title: "Product Manager – AI & Digital Platform",
+  title: "Product Manager – AI & Digital Products",
   subtitle: "AI Products · Growth · Monetization",
   blurb:
-    "Product Manager with experience building and scaling B2B & B2C SaaS products for 30M+ users and $17M+ revenue. Expertise in growth, monetization, onboarding and activation, experimentation, 0→1 product development and launches, AI-powered products, CRM, and global payments.",
+    "Product Manager with 10+ years of experience and a foundation in software engineering and data — building and scaling B2B & B2C SaaS products serving 13M+ users and generating $17M+ in annual revenue. Expertise in growth, monetization, activation, experimentation, AI-powered products, CRM, global payments, and 0→1 product development.",
   location: "San Francisco, CA",
   highlights: [
-    "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant (RAG + LLM) at CVS Health — AI governance framework adopted across 8 teams",
-    "Led AI-informed strategy for a $17M+ rewards platform — ~30% YoY revenue growth across a 30M+ user platform",
+    "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant (GenAI, RAG, agent orchestration) at CVS Health — 50K+ monthly queries, 20% lower support costs",
+    "Led product strategy for a $17M+ wallet & incentives platform — ~30% YoY revenue growth across a 13M+ user platform",
     "Drove 10% revenue growth at Autodesk ($5B+ ARR) via personalized checkout and VoC-led NPS improvement of +20 pts",
   ],
   email: "phalguni.vats@gmail.com",
@@ -51,38 +51,33 @@ const profile = {
 const experience = [
   {
     company: "CVS Health",
-    note: "Contract via APN Consulting",
-    role: "Product Manager – AI & Digital Platform",
+    role: "Product Manager – AI & Digital Products",
     period: "Feb 2024 – Present",
     location: "San Francisco, CA",
     bullets: [
       {
-        label: "AI Product Delivery (GenAI/LLM/RAG)",
-        text: "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant (RAG + LLM routing across Salesforce & SharePoint), sequencing from MVP through PHI-compliant ingestion and multi-agent orchestration",
-      },
-      {
-        label: "AI Lifecycle Governance",
-        text: "Established an AI lifecycle governance framework for PHI-handling systems — prompt guardrails, escalation thresholds, and feedback loops — adopted across 8 teams enabling cross-org deployment",
+        label: "Agentic AI Platform",
+        text: "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant leveraging GenAI, RAG, LLM routing, and agent orchestration across Salesforce and SharePoint, supporting 50K+ monthly queries and reducing support costs by 20%",
       },
       {
         label: "Predictive Analytics & ML Engine",
-        text: "Defined requirements for a multi-layer ML health scoring system, unifying wearable, behavioral, and clinical data in a real-time feature store with a lift model for intervention prediction — reducing time-to-value by 15%",
+        text: "Built a multi-layer ML health scoring system, leveraging behavioral and wearable data to deliver real-time health scores and next-best-action recommendations, accelerating member activation by 15%",
       },
       {
-        label: "Data Pipelines & System Integration",
-        text: "Led MCP integration across Apple Health, pharmacy, and insurance APIs, cutting per-source integration time from 3 months to 3 weeks; members saw +22% activation and +18% 60-day retention",
+        label: "Metrics & KPIs",
+        text: "Introduced a membership tiering system unlocking premium perks, boosting feature adoption by 10%",
       },
       {
-        label: "Sprint & Backlog Ownership",
-        text: "Owned backlog and delivery across 6 cross-functional teams (30M-user platform); drove 0→1 onboarding redesign via A/B testing and funnel instrumentation, lifting activation by 20%",
+        label: "Customer-Centric Mindset",
+        text: "Designed, scaled and launched gamified features (Badges, Streaks, Team Challenges) to drive social motivation and increase user engagement by 30% for a Health & Wellness app",
       },
       {
-        label: "Incentives Platform & Analytics",
-        text: "Led AI-informed strategy for a $17M+ rewards platform — fraud detection, multi-currency redemption, and vendor SLA reduction from 3 days to 12 hours — contributing to ~30% YoY revenue growth",
+        label: "Data-Driven Decision Making",
+        text: "Led A/B experimentation and 0→1 onboarding platform redesign for a Health & Wellness app serving 13M+ users, improving identity flows and instrumentation to increase activation by 20%",
       },
       {
-        label: "Stakeholder & Client Engagement",
-        text: "Primary product contact for 150+ stakeholders across regulatory, legal, clinical, and engineering — facilitated requirement workshops, exec updates, and AI prototype demos to validate concepts pre-investment",
+        label: "Product Vision & Strategy",
+        text: "Led product strategy and scale-up of a wallet and incentives platform powering $17M+ GMV; strengthened fraud-resilient redemption and fulfillment systems (12-hour SLA), contributing to ~30% YoY revenue growth",
       },
     ],
   },
@@ -92,10 +87,22 @@ const experience = [
     period: "Jan 2022 – Sep 2023",
     location: "San Francisco, CA",
     bullets: [
-      "Partnered with UX and engineering to make trade-offs and drive automation of renewal and premium account workflows within Autodesk's $5B+ ARR subscription system; improved retention by 7% through lifecycle and pricing optimization",
-      "Launched a Voice-of-Customer (VoC) Dashboard for Customer Success, aggregating social, survey, and call data to surface at-risk users, prioritize detractor re-engagement — lifting NPS by 20 points",
-      "Led a pilot to expand into emerging markets, testing an outsourced customer success model; built A/B experiments with data science to validate cost and revenue impact and inform a go/no-go decision",
-      "Designed a personalized checkout experience, leveraging targeted upsell promotions to drive 10% revenue growth",
+      {
+        label: "Cross-Functional Collaboration",
+        text: "Partnered with UX and engineering to make trade-offs and drive automation of renewal and premium account workflows within Autodesk's $5B+ ARR subscription system; improved retention by 7% through lifecycle optimization",
+      },
+      {
+        label: "Customer-Centric Mindset",
+        text: "Launched a Voice-of-Customer (VoC) Dashboard for Customer Success, aggregating social, survey, and call data to surface at-risk users, prioritize detractor re-engagement — lifting NPS by 20 points",
+      },
+      {
+        label: "Decision Making under Uncertainty",
+        text: "Led a pilot to expand into emerging markets, testing an outsourced customer success model; built A/B experiments with data science to validate cost and revenue impact and inform a go/no-go decision",
+      },
+      {
+        label: "Data-Driven Decision Making",
+        text: "Designed a personalized checkout experience, leveraging targeted upsell promotions to drive 10% revenue growth",
+      },
     ],
   },
   {
@@ -182,7 +189,7 @@ const skillGroups = [
     items: [
       "Onboarding & Activation", "Monetization & Incentives", "Personalization & Insights",
       "Retention Systems", "AI-Assisted Prototyping", "GenAI / LLM / RAG",
-      "AI Lifecycle Governance", "Go-to-Market (GTM)", "Product Roadmap", "Cross-functional Leadership",
+      "Agent Orchestration", "Go-to-Market (GTM)", "Product Roadmap", "Cross-functional Leadership",
     ],
   },
   {
@@ -190,7 +197,7 @@ const skillGroups = [
     color: "blue",
     items: [
       "A/B Testing", "Experimentation", "OKRs & KPIs",
-      "Amplitude", "Google Analytics", "SQL", "APIs", "MCP Integration",
+      "Amplitude", "Google Analytics", "SQL", "APIs",
       "Claude", "Lovable",
     ],
   },
@@ -251,8 +258,8 @@ const awards = [
 
 const stats = [
   { value: "10+", label: "Years of Experience" },
-  { value: "30M", label: "Users on Platform" },
-  { value: "+18%", label: "60-Day Retention" },
+  { value: "13M", label: "Users on Platform" },
+  { value: "20%", label: "Support Cost Reduction" },
   { value: "30%", label: "YoY Revenue Growth" },
   { value: "+20", label: "NPS Improvement" },
   { value: "5", label: "Companies" },
@@ -293,51 +300,51 @@ const testimonials = [
 
 const caseStudies = [
   {
-    title: "Building a HIPAA-Compliant Multi-Agent AI Assistant",
+    title: "Building a HIPAA-Compliant Agentic AI Platform",
     company: "CVS Health",
-    role: "Product Manager – AI & Digital Platform",
+    role: "Product Manager – AI & Digital Products",
     timeline: "2024 – Present",
-    tags: ["GenAI", "LLM", "RAG", "Healthcare", "AI Governance"],
+    tags: ["GenAI", "Agentic AI", "RAG", "Healthcare", "LLM"],
     summary:
-      "How I drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant — combining RAG and LLM routing across Salesforce & SharePoint — and built the AI governance framework that let 8 teams safely deploy PHI-handling AI systems.",
+      "How I drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant — combining GenAI, RAG, and LLM routing with agent orchestration across Salesforce & SharePoint — supporting 50K+ monthly queries and cutting support costs by 20%.",
     problem:
-      "Internal teams needed fast, accurate answers pulled from systems containing PHI (Salesforce, SharePoint) — but no AI assistant could touch that data without rigorous compliance guardrails, escalation logic, and auditability. Most GenAI pilots stall here: compliance blocks deployment before it ever reaches real users. The challenge: ship real AI value without waiting for a perfect governance framework first.",
+      "Internal teams needed fast, accurate answers pulled from systems containing PHI (Salesforce, SharePoint) — but no AI assistant could touch that data without careful agent design and compliance handling. The challenge: build a system that could safely route and answer real PHI-adjacent questions at production scale, not just a narrow demo.",
     roleDetail:
-      "As the PM owning AI product delivery, I sequenced the build from MVP through PHI-compliant ingestion to full multi-agent orchestration — partnering with engineering on RAG architecture and LLM routing, and with legal/compliance on the governance framework that unlocked adoption across the org.",
+      "As the PM owning AI product delivery, I sequenced the build from MVP through PHI-compliant handling to full multi-agent orchestration — partnering with engineering on RAG architecture, LLM routing, and agent design, while aligning 6 cross-functional teams, 200+ contributors, and 30+ stakeholders across UX, Data Science, Engineering, and Operations.",
     approach: [
       {
         step: "Discovery",
         detail:
-          "Mapped which internal workflows needed answers from PHI-containing systems, and audited what compliance, legal, and security would require before any LLM could touch that data.",
+          "Mapped which internal support workflows generated the highest query volume and audited which of those touched PHI-adjacent systems requiring extra compliance handling.",
       },
       {
         step: "Define",
         detail:
-          "Framed the problem as twin-track: build the multi-agent RAG architecture, and in parallel define the governance framework (prompt guardrails, escalation thresholds, feedback loops) needed for sign-off.",
+          "Framed the goal as twin-track: prove GenAI could meaningfully cut support costs, while building a multi-agent architecture that could safely scale to real query volume.",
       },
       {
         step: "Design",
         detail:
-          "Designed multi-agent orchestration routing queries across Salesforce and SharePoint via RAG, with PHI-compliant ingestion pipelines and clear escalation paths to humans for high-risk queries.",
+          "Designed multi-agent orchestration routing queries across Salesforce and SharePoint via RAG, with LLM routing logic to direct each query to the right agent and data source.",
       },
       {
         step: "Deliver",
         detail:
-          "Shipped a narrow MVP first to prove RAG retrieval quality, then layered in PHI-compliant ingestion, then full multi-agent orchestration — sequencing delivery so compliance sign-off tracked the build instead of blocking it.",
+          "Shipped a narrow MVP first to prove RAG retrieval quality on real queries, then scaled orchestration and routing to support 50K+ monthly queries in production.",
       },
     ],
     decision:
-      "The hardest call was running compliance and product work in parallel rather than waiting for full governance sign-off before building anything. I pushed to ship an MVP on non-PHI data first to prove the RAG architecture worked, while the governance framework was reviewed alongside — derisking both tracks instead of serializing them and stalling the whole initiative.",
+      "The hardest call was scoping the MVP narrowly enough to ship fast without sacrificing the compliance rigor PHI-adjacent systems demanded. I pushed to prove the RAG and routing architecture on a contained slice of queries first, then scaled agent orchestration once retrieval quality and compliance handling were both validated — rather than building the full multi-agent system before any of it touched real users.",
     metrics: [
-      { value: "8", label: "Teams Adopting Framework" },
-      { value: "150+", label: "Stakeholders Engaged" },
-      { value: "+22%", label: "Activation Lift" },
-      { value: "+18%", label: "60-Day Retention" },
+      { value: "50K+", label: "Monthly Queries" },
+      { value: "20%", label: "Support Cost Reduction" },
       { value: "15%", label: "Faster Time-to-Value" },
+      { value: "20%", label: "Activation Lift" },
+      { value: "13M+", label: "Users on Platform" },
       { value: "~30%", label: "YoY Revenue Growth" },
     ],
     outcome:
-      "The multi-agent AI assistant became the template for safe GenAI deployment at scale — the governance framework was adopted across 8 teams, unlocking cross-org AI deployment. Combined with the ML health-scoring engine and MCP-integrated data pipelines (Apple Health, pharmacy, insurance), the work lifted member activation by 22% and 60-day retention by 18%, while the $17M+ incentives platform it informed grew revenue ~30% YoY.",
+      "The agentic AI platform now handles 50K+ monthly queries in production, cutting support costs by 20% — proof that GenAI can deliver real operational savings in a highly regulated environment. Combined with the ML health-scoring engine (15% faster time-to-value) and the onboarding redesign (20% activation lift) across a 13M+ user platform, the work fed directly into the $17M+ incentives platform's ~30% YoY revenue growth.",
   },
 ];
 
