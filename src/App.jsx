@@ -36,7 +36,7 @@ const profile = {
     "Product Manager with 10+ years of experience and a foundation in software engineering and data — building and scaling B2B & B2C SaaS products serving 13M+ users and generating $17M+ in annual revenue. Expertise in growth, monetization, activation, experimentation, AI-powered products, CRM, global payments, and 0→1 product development.",
   location: "San Francisco, CA",
   highlights: [
-    "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant (GenAI, RAG, agent orchestration) at CVS Health — 50K+ monthly queries, 20% lower support costs",
+    "Built a multi-layer ML health-scoring engine and led a 0→1 onboarding redesign for a 13M+ user Health & Wellness app — 15% faster activation, 20% activation lift",
     "Led product strategy for a $17M+ wallet & incentives platform — ~30% YoY revenue growth across a 13M+ user platform",
     "Drove 10% revenue growth at Autodesk ($5B+ ARR) via personalized checkout and VoC-led NPS improvement of +20 pts",
   ],
@@ -55,10 +55,6 @@ const experience = [
     period: "Feb 2024 – Present",
     location: "San Francisco, CA",
     bullets: [
-      {
-        label: "Agentic AI Platform",
-        text: "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant leveraging GenAI, RAG, LLM routing, and agent orchestration across Salesforce and SharePoint, supporting 50K+ monthly queries and reducing support costs by 20%",
-      },
       {
         label: "Predictive Analytics & ML Engine",
         text: "Built a multi-layer ML health scoring system, leveraging behavioral and wearable data to deliver real-time health scores and next-best-action recommendations, accelerating member activation by 15%",
@@ -188,8 +184,8 @@ const skillGroups = [
     color: "violet",
     items: [
       "Onboarding & Activation", "Monetization & Incentives", "Personalization & Insights",
-      "Retention Systems", "AI-Assisted Prototyping", "GenAI / LLM / RAG",
-      "Agent Orchestration", "Go-to-Market (GTM)", "Product Roadmap", "Cross-functional Leadership",
+      "Retention Systems", "AI-Assisted Prototyping",
+      "Go-to-Market (GTM)", "Product Roadmap", "Cross-functional Leadership",
     ],
   },
   {
@@ -259,7 +255,7 @@ const awards = [
 const stats = [
   { value: "10+", label: "Years of Experience" },
   { value: "13M", label: "Users on Platform" },
-  { value: "20%", label: "Support Cost Reduction" },
+  { value: "15%", label: "Faster Member Activation" },
   { value: "30%", label: "YoY Revenue Growth" },
   { value: "+20", label: "NPS Improvement" },
   { value: "5", label: "Companies" },
@@ -300,51 +296,51 @@ const testimonials = [
 
 const caseStudies = [
   {
-    title: "Building a HIPAA-Compliant Agentic AI Platform",
+    title: "Scaling a $17M+ Wallet & Incentives Platform",
     company: "CVS Health",
     role: "Product Manager – AI & Digital Products",
     timeline: "2024 – Present",
-    tags: ["GenAI", "Agentic AI", "RAG", "Healthcare", "LLM"],
+    tags: ["Monetization", "Wallet & Incentives", "Fraud Prevention", "Growth", "Healthcare"],
     summary:
-      "How I drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant — combining GenAI, RAG, and LLM routing with agent orchestration across Salesforce & SharePoint — supporting 50K+ monthly queries and cutting support costs by 20%.",
+      "How I led product strategy and scale-up of a wallet and incentives platform powering $17M+ GMV — strengthening fraud-resilient redemption and fulfillment systems while driving ~30% YoY revenue growth for a 13M+ user health platform.",
     problem:
-      "Internal teams needed fast, accurate answers pulled from systems containing PHI (Salesforce, SharePoint) — but no AI assistant could touch that data without careful agent design and compliance handling. The challenge: build a system that could safely route and answer real PHI-adjacent questions at production scale, not just a narrow demo.",
+      "CVS's wallet and incentives platform had real GMV flowing through it, but fraud exposure and slow fulfillment SLAs were capping how aggressively the business could scale redemption volume. The challenge: grow the platform's revenue contribution without growing fraud risk or fulfillment backlog in lockstep.",
     roleDetail:
-      "As the PM owning AI product delivery, I sequenced the build from MVP through PHI-compliant handling to full multi-agent orchestration — partnering with engineering on RAG architecture, LLM routing, and agent design, while aligning 6 cross-functional teams, 200+ contributors, and 30+ stakeholders across UX, Data Science, Engineering, and Operations.",
+      "As the PM owning product strategy for the wallet and incentives platform, I defined the roadmap for fraud-resilient redemption, partnered with engineering and risk teams on fulfillment SLAs, and aligned stakeholders across UX, Data Science, Engineering, and Operations on the rollout.",
     approach: [
       {
         step: "Discovery",
         detail:
-          "Mapped which internal support workflows generated the highest query volume and audited which of those touched PHI-adjacent systems requiring extra compliance handling.",
+          "Audited fraud patterns and fulfillment bottlenecks in the existing redemption flow, and quantified how much revenue growth was being left on the table by overly conservative fraud controls.",
       },
       {
         step: "Define",
         detail:
-          "Framed the goal as twin-track: prove GenAI could meaningfully cut support costs, while building a multi-agent architecture that could safely scale to real query volume.",
+          "Framed the goal as a twin constraint: cut fulfillment time aggressively while making redemption more fraud-resilient, not trading one off against the other.",
       },
       {
         step: "Design",
         detail:
-          "Designed multi-agent orchestration routing queries across Salesforce and SharePoint via RAG, with LLM routing logic to direct each query to the right agent and data source.",
+          "Designed fraud-resilient redemption logic and a fulfillment pipeline targeting a 12-hour SLA, in partnership with engineering and risk.",
       },
       {
         step: "Deliver",
         detail:
-          "Shipped a narrow MVP first to prove RAG retrieval quality on real queries, then scaled orchestration and routing to support 50K+ monthly queries in production.",
+          "Rolled out the redemption and fulfillment improvements incrementally, monitoring fraud rates and SLA performance at each stage before scaling further.",
       },
     ],
     decision:
-      "The hardest call was scoping the MVP narrowly enough to ship fast without sacrificing the compliance rigor PHI-adjacent systems demanded. I pushed to prove the RAG and routing architecture on a contained slice of queries first, then scaled agent orchestration once retrieval quality and compliance handling were both validated — rather than building the full multi-agent system before any of it touched real users.",
+      "The hardest call was how aggressively to loosen fraud controls to unlock revenue growth. I pushed to ship fraud-resilient redemption logic first and prove it held under real volume, before committing to the more aggressive 12-hour fulfillment SLA — sequencing risk reduction ahead of speed rather than chasing both at once.",
     metrics: [
-      { value: "50K+", label: "Monthly Queries" },
-      { value: "20%", label: "Support Cost Reduction" },
-      { value: "15%", label: "Faster Time-to-Value" },
-      { value: "20%", label: "Activation Lift" },
-      { value: "13M+", label: "Users on Platform" },
+      { value: "$17M+", label: "GMV Powered" },
       { value: "~30%", label: "YoY Revenue Growth" },
+      { value: "12hr", label: "Fulfillment SLA" },
+      { value: "13M+", label: "Users on Platform" },
+      { value: "20%", label: "Activation Lift" },
+      { value: "30%", label: "Engagement Lift" },
     ],
     outcome:
-      "The agentic AI platform now handles 50K+ monthly queries in production, cutting support costs by 20% — proof that GenAI can deliver real operational savings in a highly regulated environment. Combined with the ML health-scoring engine (15% faster time-to-value) and the onboarding redesign (20% activation lift) across a 13M+ user platform, the work fed directly into the $17M+ incentives platform's ~30% YoY revenue growth.",
+      "The wallet and incentives platform scaled to power $17M+ in GMV with fraud-resilient redemption and a 12-hour fulfillment SLA, contributing to ~30% YoY revenue growth. Combined with the onboarding redesign (20% activation lift) and gamified engagement features (30% engagement lift) across a 13M+ user platform, the work moved the business's core monetization metrics without compromising trust or fulfillment speed.",
   },
 ];
 
