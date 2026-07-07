@@ -30,12 +30,13 @@ import AIChatSection from "./components/AIChatSection";
 
 const profile = {
   name: "Phalguni Vatsa",
-  title: "Product Manager – AI & Digital Platform",
+  title: "Sr. Product Manager – AI Product Strategy & Delivery",
   subtitle: "AI Products · Growth · Monetization",
   blurb:
     "Product Manager with 10+ years of experience and a foundation in software engineering and data — building and scaling B2B & B2C SaaS products serving 13M+ users and generating $17M+ in annual revenue. Expertise in growth, monetization, activation, experimentation, AI-powered products, CRM, global payments, and 0→1 product development.",
   location: "San Francisco, CA",
   highlights: [
+    "Now leading AI product discovery, strategy & delivery for a Fortune 1000 healthcare client at Brillio — translating high-impact business problems into production-ready GenAI products",
     "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant (GenAI, RAG, agent orchestration) at CVS Health — 50K+ monthly queries, 20% lower support costs, AI governance framework adopted across 8 teams",
     "Led product strategy for a $17M+ wallet & incentives platform — ~30% YoY revenue growth across a 13M+ user platform",
     "Drove 10% revenue growth at Autodesk ($5B+ ARR) via personalized checkout and VoC-led NPS improvement of +20 pts",
@@ -50,10 +51,31 @@ const profile = {
 
 const experience = [
   {
+    company: "Brillio",
+    note: "Contract · Fortune 1000 healthcare client",
+    role: "Sr. Product Manager – AI Product Strategy & Delivery",
+    period: "Jul 2026 – Present",
+    location: "San Francisco, CA · Remote",
+    bullets: [
+      {
+        label: "AI Product Discovery & Delivery",
+        text: "Own AI product discovery, strategy, and delivery for a Fortune 1000 healthcare client — identifying high-impact business problems and translating them into production-ready GenAI products",
+      },
+      {
+        label: "Executive Stakeholder Partnership",
+        text: "Partner directly with executive stakeholders, product marketing, engineering, data science, and UX to define AI roadmaps, prioritize investments, and deliver measurable business outcomes",
+      },
+      {
+        label: "AI Center of Excellence",
+        text: "Partner with the client's AI Center of Excellence (CoE) to evaluate enterprise GenAI use cases, shape AI strategy, and establish best practices for scalable, responsible AI adoption",
+      },
+    ],
+  },
+  {
     company: "CVS Health",
     note: "Contract via APN Consulting",
     role: "Product Manager – AI & Digital Platform",
-    period: "Feb 2024 – Present",
+    period: "Feb 2024 – Jul 2026",
     location: "San Francisco, CA",
     bullets: [
       {
@@ -276,7 +298,7 @@ const stats = [
   { value: "20%", label: "Support Cost Reduction" },
   { value: "30%", label: "YoY Revenue Growth" },
   { value: "+20", label: "NPS Improvement" },
-  { value: "5", label: "Companies" },
+  { value: "6", label: "Companies" },
 ];
 
 const currently = [
@@ -317,7 +339,7 @@ const caseStudies = [
     title: "Building a HIPAA-Compliant Agentic AI Platform",
     company: "CVS Health",
     role: "Product Manager – AI & Digital Platform",
-    timeline: "2024 – Present",
+    timeline: "2024 – 2026",
     tags: ["GenAI", "Agentic AI", "RAG", "Healthcare", "AI Governance"],
     summary:
       "How I drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant — combining GenAI, RAG, and LLM routing with agent orchestration across Salesforce & SharePoint — and built the AI governance framework that let 8 teams safely deploy PHI-handling AI systems, supporting 50K+ monthly queries and cutting support costs by 20%.",
