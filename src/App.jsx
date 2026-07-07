@@ -33,12 +33,12 @@ const profile = {
   title: "Sr. Product Manager – AI Product Strategy & Delivery",
   subtitle: "AI Products · Growth · Monetization",
   blurb:
-    "Product Manager with 10+ years of experience and a foundation in software engineering and data — building and scaling B2B & B2C SaaS products serving 13M+ users and generating $17M+ in annual revenue. Expertise in growth, monetization, activation, experimentation, AI-powered products, CRM, global payments, and 0→1 product development.",
+    "Product Manager with 10+ years of experience and a foundation in software engineering and data — building and scaling B2B & B2C SaaS products serving 18M+ users and generating $17M+ in annual revenue. Expertise in growth, monetization, activation, experimentation, AI-powered products, CRM, global payments, and 0→1 product development.",
   location: "San Francisco, CA",
   highlights: [
     "Now leading AI product discovery, strategy & delivery for a Fortune 1000 healthcare client at Brillio — translating high-impact business problems into production-ready GenAI products",
     "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant (GenAI, RAG, agent orchestration) at CVS Health — 50K+ monthly queries, 20% lower support costs, AI governance framework adopted across 8 teams",
-    "Led product strategy for a $17M+ wallet & incentives platform — ~30% YoY revenue growth across a 13M+ user platform",
+    "Led product strategy for a $17M+ wallet & incentives platform — ~30% YoY revenue growth across a 18M+ user platform",
     "Drove 10% revenue growth at Autodesk ($5B+ ARR) via personalized checkout and VoC-led NPS improvement of +20 pts",
   ],
   email: "phalguni.vats@gmail.com",
@@ -96,7 +96,7 @@ const experience = [
       },
       {
         label: "Sprint & Backlog Ownership",
-        text: "Owned backlog and delivery across 6 cross-functional teams (13M-user platform); drove 0→1 onboarding redesign via A/B testing and funnel instrumentation, improving identity flows and lifting activation by 20%",
+        text: "Owned backlog and delivery across 6 cross-functional teams (18M-user platform); drove 0→1 onboarding redesign via A/B testing and funnel instrumentation, improving identity flows and lifting activation by 20%",
       },
       {
         label: "Metrics & KPIs",
@@ -294,7 +294,7 @@ const awards = [
 
 const stats = [
   { value: "10+", label: "Years of Experience" },
-  { value: "13M", label: "Users on Platform" },
+  { value: "18M", label: "Users on Platform" },
   { value: "20%", label: "Support Cost Reduction" },
   { value: "30%", label: "YoY Revenue Growth" },
   { value: "+20", label: "NPS Improvement" },
