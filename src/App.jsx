@@ -38,7 +38,7 @@ const profile = {
   highlights: [
     "Now leading AI product discovery, strategy & delivery for a Fortune 1000 healthcare client at Brillio — translating high-impact business problems into production-ready GenAI products",
     "Drove 0→1 delivery of a HIPAA-compliant multi-agent AI assistant (GenAI, RAG, agent orchestration) at CVS Health — 50K+ monthly queries, 20% lower support costs, AI governance framework adopted across 8 teams",
-    "Led product strategy for a $17M+ wallet & incentives platform — ~30% YoY revenue growth across a 18M+ user platform",
+    "Led product strategy for a $17M+ GMV digital wallet — ~30% YoY revenue growth across an 18M+ user platform",
     "Drove 10% revenue growth at Autodesk ($5B+ ARR) via personalized checkout and VoC-led NPS improvement of +20 pts",
   ],
   email: "phalguni.vats@gmail.com",
@@ -87,24 +87,24 @@ const experience = [
         text: "Established an AI lifecycle governance framework for PHI-handling systems — prompt guardrails, escalation thresholds, and feedback loops — adopted across 8 teams enabling cross-org deployment",
       },
       {
-        label: "Predictive Analytics & ML Engine",
-        text: "Built a multi-layer ML health scoring system, leveraging behavioral and wearable data to deliver real-time health scores and next-best-action recommendations, accelerating member activation by 15%",
-      },
-      {
         label: "Product Vision & Strategy",
-        text: "Led product strategy and scale-up of a wallet and incentives platform powering $17M+ GMV; strengthened fraud-resilient redemption and fulfillment systems (12-hour SLA), contributing to ~30% YoY revenue growth",
+        text: "Owned product strategy for a $17M+ GMV digital wallet, aligning 5 cross-functional teams, 70+ contributors, and 10+ stakeholders to deliver fraud-resilient redemption capabilities, driving ~30% YoY revenue growth",
       },
       {
-        label: "Sprint & Backlog Ownership",
-        text: "Owned backlog and delivery across 6 cross-functional teams (18M-user platform); drove 0→1 onboarding redesign via A/B testing and funnel instrumentation, improving identity flows and lifting activation by 20%",
+        label: "Predictive Analytics & ML",
+        text: "Defined product vision for an ML-powered health scoring system, leveraging behavioral and wearable data to deliver real-time health scores and next-best-action recommendations, accelerating member activation by 15%",
       },
       {
-        label: "Metrics & KPIs",
-        text: "Introduced a membership tiering system unlocking premium perks, boosting engagement by 40% and feature adoption by 10%",
+        label: "Data-Driven Decision Making",
+        text: "Led A/B experimentation and 0→1 onboarding platform redesign for a Health & Wellness app serving 18M+ users, improving identity flows and instrumentation to increase activation by 20%",
       },
       {
         label: "Customer-Centric Mindset",
-        text: "Designed, scaled and launched gamified features (Badges, Streaks, Team Challenges) to drive social motivation and increase retention by 30% for a Health & Wellness app",
+        text: "Designed, scaled and launched gamified features (Badges, Streaks, Team Challenges) to drive social motivation and increase user engagement by 30% for a Health & Wellness app",
+      },
+      {
+        label: "Metrics & KPIs",
+        text: "Launched a membership tiering system unlocking premium perks, boosting feature adoption by 10%",
       },
       {
         label: "Multichannel Engagement",
@@ -118,7 +118,7 @@ const experience = [
   },
   {
     company: "Autodesk",
-    role: "GTM Product Manager",
+    role: "Product Owner, Go To Market Platform",
     period: "Jan 2022 – Sep 2023",
     location: "San Francisco, CA",
     bullets: [
@@ -161,7 +161,7 @@ const experience = [
   },
   {
     company: "Yash Technologies",
-    role: "Senior Software Engineer",
+    role: "Software Engineer",
     period: "Apr 2018 – Jan 2020",
     location: "Bengaluru, India",
     bullets: [
@@ -298,7 +298,7 @@ const stats = [
   { value: "20%", label: "Support Cost Reduction" },
   { value: "30%", label: "YoY Revenue Growth" },
   { value: "+20", label: "NPS Improvement" },
-  { value: "6", label: "Companies" },
+  { value: "5", label: "Companies" },
 ];
 
 const currently = [
@@ -376,11 +376,11 @@ const caseStudies = [
       { value: "20%", label: "Support Cost Reduction" },
       { value: "8", label: "Teams Adopting Framework" },
       { value: "150+", label: "Stakeholders Engaged" },
-      { value: "15%", label: "Faster Time-to-Value" },
+      { value: "15%", label: "Faster Member Activation" },
       { value: "~30%", label: "YoY Revenue Growth" },
     ],
     outcome:
-      "The multi-agent AI assistant now handles 50K+ monthly queries in production, cutting support costs by 20% — and the governance framework it required was adopted across 8 teams, unlocking cross-org AI deployment. Combined with the ML health-scoring engine (15% faster time-to-value) and the $17M+ wallet & incentives platform, the work fed directly into the business's ~30% YoY revenue growth.",
+      "The multi-agent AI assistant now handles 50K+ monthly queries in production, cutting support costs by 20% — and the governance framework it required was adopted across 8 teams, unlocking cross-org AI deployment. Combined with the ML health-scoring system (15% faster member activation) and the $17M+ GMV digital wallet, the work fed directly into the business's ~30% YoY revenue growth.",
   },
 ];
 
